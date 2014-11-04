@@ -1,0 +1,3 @@
+\beamer@endinputifotherversion {3.24pt}
+\beamer@sectionintoc {1}{$\partial $A Search and Learning Model of Export Dynamics}{2}{0}{1}
+\beamer@subsectionintoc {1}{1}{Slides - Beamer}{2}{0}{1}

@@ -1,0 +1,1843 @@
+%2multibyte Version: 5.50.0.2960 CodePage: 936
+
+\documentclass[notes=show]{beamer}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{mathpazo}
+\usepackage{hyperref}
+\usepackage{multimedia}
+
+%TCIDATA{OutputFilter=LATEX.DLL}
+%TCIDATA{Version=5.50.0.2960}
+%TCIDATA{Codepage=936}
+%TCIDATA{<META NAME="SaveForMode" CONTENT="2">}
+%TCIDATA{BibliographyScheme=Manual}
+%TCIDATA{Created=Monday, January 02, 2012 10:10:09}
+%TCIDATA{LastRevised=Wednesday, November 06, 2013 07:37:45}
+%TCIDATA{<META NAME="GraphicsSave" CONTENT="32">}
+%TCIDATA{<META NAME="DocumentShell" CONTENT="Other Documents\SW\Slides - Beamer">}
+%TCIDATA{CSTFile=beamer.cst}
+
+\newenvironment{stepenumerate}{\begin{enumerate}[<+->]}{\end{enumerate}}
+\newenvironment{stepitemize}{\begin{itemize}[<+->]}{\end{itemize} }
+\newenvironment{stepenumeratewithalert}{\begin{enumerate}[<+-| alert@+>]}{\end{enumerate}}
+\newenvironment{stepitemizewithalert}{\begin{itemize}[<+-| alert@+>]}{\end{itemize} }
+\usetheme{Madrid}
+\input{tcilatex}
+\begin{document}
+
+\title[Search and Export Dynamics]{A Search and Learning Model of Export
+Dynamics}
+\subtitle{}
+\author[Eaton et al.]{ \ \ \ \ {\small Jonathan Eaton,}$^{a,b}$ \ \ {\small %
+Marcela Eslava,}$^{c}${\small \ \ \ \ David Jenkins}$^{a}$, {\small \ \ \ \
+\ \ \ } \and {\small \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ C.J. Krizan,}$%
+^{d} $ \ \ {\small James Tybout}$^{a,b}$ \ \ \ }
+\institute{$^{a}$Penn State, $^{b}$NBER, $^{c}$U. de los Andes, $^{d}$Census Bureau
+(CES)}
+\date[11/7/13]{November 7, 2013}
+\maketitle
+
+\section{$\partial $A Search and Learning Model of Export Dynamics}
+
+\subsection{Slides - Beamer}
+
+%TCIMACRO{\TeXButton{BeginFrame}{\begin{frame}}}%
+%BeginExpansion
+\begin{frame}%
+%EndExpansion
+
+\QTR{frametitle}{2 sets of relevant issues }
+
+\begin{itemize}
+\item Aggregate/industry level export dynamics
+
+\begin{itemize}
+\item What determines short and long-run responses to macroeconomic shocks?
+
+\item Why are export responses to trade liberalization unpredicable?
+
+\item What are the underlying causes of export booms?
+\end{itemize}
+\end{itemize}
+
+%TCIMACRO{\TeXButton{Pause}{\pause}}%
+%BeginExpansion
+\pause%
+%EndExpansion
+
+\begin{itemize}
+\item Trade at the level of individual firms
+
+\begin{itemize}
+\item What are the firm-level trade frictions?
+
+\item What determines the cross-firm distribution of export sales?
+
+\item What determines firm-specific export growth patterns, once they start
+exporting?
+
+\item How reconcile the cross section and dynamic patterns?
+\end{itemize}
+\end{itemize}
+
+%TCIMACRO{\TeXButton{Pause}{\pause}}%
+%BeginExpansion
+\pause%
+%EndExpansion
+
+\begin{itemize}
+\item \textbf{This paper}: Approach these issues by studying formation,
+evolution, and dissolution of international buyer-seller relationships.
+\end{itemize}
+
+%TCIMACRO{\TeXButton{EndFrame}{\end{frame}}}%
+%BeginExpansion
+\end{frame}%
+%EndExpansion
+%TCIMACRO{\TeXButton{BeginFrame}{\begin{frame}}}%
+%BeginExpansion
+\begin{frame}%
+%EndExpansion
+
+\QTR{frametitle}{The exercises}
+
+\begin{itemize}
+\item Chararcterize buyer-seller relationships in decade's worth of data on
+individual merchandise shipments from Colombia to the United States
+
+\item Develop a (partial equilibrium) dynamic search and learning model that
+explains patterns found in shipments.
+
+\item Fit the model to the data, and quantify exporting frictions:
+
+\begin{itemize}
+\item costs of finding new buyers
+
+\item costs maintaining relationships with existing ones.
+
+\item learning about product appeal in foreign markets
+
+\item network effects
+\end{itemize}
+
+\item Perform counterfactual exercises
+\end{itemize}
+
+%TCIMACRO{\TeXButton{EndFrame}{\end{frame}}}%
+%BeginExpansion
+\end{frame}%
+%EndExpansion
+%TCIMACRO{\TeXButton{BeginFrame}{\begin{frame}}}%
+%BeginExpansion
+\begin{frame}%
+%EndExpansion
+
+\QTR{frametitle}{Related literature}
+
+\begin{itemize}
+\item Melitz (2003), etc.
+
+\begin{itemize}
+\item More efficient firms more likely to export
+
+\item More efficient firms sell more in any market
+\end{itemize}
+
+\item Beachhead exporting costs:
+
+\begin{itemize}
+\item \textit{Theory}: Dixit (1989), Baldwin and Krugman (1989), Impullitti,
+Irarrazabal, and Opromolla (2012)
+
+\item \textit{Quantitative}: Roberts and Tybout (1997), Bernard and Jensen
+(2004), Das, Roberts, and Tybout (2008)
+\end{itemize}
+
+\item Marketing costs: Arkolakis (2009, 2010); Drozd and Nozal (2011)
+
+\item Networks: Rauch (1999, 2001), Chaney (2011)
+
+\item Learning: Rauch and Watson (2002); Albornoz, Calvo-Pardo, Corcos, and
+Ornelas (2012)
+\end{itemize}
+
+%TCIMACRO{\TeXButton{EndFrame}{\end{frame}}}%
+%BeginExpansion
+\end{frame}%
+%EndExpansion
+%TCIMACRO{\TeXButton{BeginFrame}{\begin{frame}}}%
+%BeginExpansion
+\begin{frame}%
+%EndExpansion
+
+\QTR{frametitle}{Stylized facts}
+
+\begin{itemize}
+\item Evidence from Colombian customs data
+
+\begin{itemize}
+\item Population of (legal) Colombian export transactions over the course of
+a decade (1996-2005).
+
+\item Each transaction has a date, value, product code, firm ID, and
+destination country.
+
+\item See also: Besedes (2006); Bernard et al (2007); Blum et al (2009);
+Albornoz, et al (2010)
+\end{itemize}
+
+\item Evidence from U.S. customs records
+
+\begin{itemize}
+\item Population of (legal) import transactions over the course of a decade
+(1996-2009).
+
+\item Each transaction has a date, value, product code, affiliated trade
+indicator, exporter country \textit{and} firm ID, and importer firm ID.
+
+\item See also Blum et al, 2009a, 2009b; Albornoz et al, 2010; Carballo,
+Ottaviano and Martincus (2013).
+\end{itemize}
+\end{itemize}
+
+%TCIMACRO{\TeXButton{EndFrame}{\end{frame}}}%
+%BeginExpansion
+\end{frame}%
+%EndExpansion
+%TCIMACRO{\TeXButton{BeginFrame}{\begin{frame}}}%
+%BeginExpansion
+\begin{frame}%
+%EndExpansion
+
+\QTR{frametitle}{Exporters by durability}
+
+%TCIMACRO{%
+%\FRAME{ftbpF}{3.4359in}{1.9865in}{0pt}{}{}{Figure}{%
+%\special{language "Scientific Word";type "GRAPHIC";maintain-aspect-ratio TRUE;display "USEDEF";valid_file "T";width 3.4359in;height 1.9865in;depth 0pt;original-width 7.8248in;original-height 4.5074in;cropleft "0";croptop "1";cropright "1";cropbottom "0";tempfilename 'MVUDQX00.wmf';tempfile-properties "XPR";}}}%
+%BeginExpansion
+\begin{figure}[ptb]\centering
+\includegraphics[
+natheight=4.5074in, natwidth=7.8248in, height=1.9865in, width=3.4359in]
+{C:/Users/jtybout/Dropbox/Presentations/graphics/MVUDQX00__1.pdf}%
+\end{figure}%
+%EndExpansion
+
+\begin{itemize}
+\item As a fraction of total exporters, firms that enter a market and
+immediately exit are important.
+\end{itemize}
+
+%TCIMACRO{\TeXButton{EndFrame}{\end{frame}}}%
+%BeginExpansion
+\end{frame}%
+%EndExpansion
+%TCIMACRO{\TeXButton{BeginFrame}{\begin{frame}}}%
+%BeginExpansion
+\begin{frame}%
+%EndExpansion
+
+\QTR{frametitle}{Exporters by durability}
+
+%TCIMACRO{%
+%\FRAME{ftbpF}{3.3892in}{2.0851in}{0pt}{}{}{Figure}{%
+%\special{language "Scientific Word";type "GRAPHIC";maintain-aspect-ratio TRUE;display "USEDEF";valid_file "T";width 3.3892in;height 2.0851in;depth 0pt;original-width 9.9955in;original-height 6.135in;cropleft "0";croptop "1";cropright "1";cropbottom "0";tempfilename 'MVUDQX01.wmf';tempfile-properties "XPR";}}}%
+%BeginExpansion
+\begin{figure}[ptb]\centering
+\includegraphics[
+natheight=6.135in, natwidth=9.9955in, height=2.0851in, width=3.3892in]
+{C:/Users/jtybout/Dropbox/Presentations/graphics/MVUDQX01__2.pdf}%
+\end{figure}%
+%EndExpansion
+
+\begin{itemize}
+\item But as a fraction of total export revenue, brand new exporters don't
+account for much.
+\end{itemize}
+
+%TCIMACRO{\TeXButton{EndFrame}{\end{frame}}}%
+%BeginExpansion
+\end{frame}%
+%EndExpansion
+%TCIMACRO{\TeXButton{BeginFrame}{\begin{frame}}}%
+%BeginExpansion
+\begin{frame}%
+%EndExpansion
+
+\QTR{frametitle}{Cohort maturation}
+
+%TCIMACRO{%
+%\FRAME{ftbpF}{3.3529in}{2.3514in}{0pt}{}{}{Figure}{%
+%\special{language "Scientific Word";type "GRAPHIC";maintain-aspect-ratio TRUE;display "USEDEF";valid_file "T";width 3.3529in;height 2.3514in;depth 0pt;original-width 9.1618in;original-height 6.4126in;cropleft "0";croptop "1";cropright "1";cropbottom "0";tempfilename 'MVUDQX02.wmf';tempfile-properties "XPR";}}}%
+%BeginExpansion
+\begin{figure}[ptb]\centering
+\includegraphics[
+natheight=6.4126in, natwidth=9.1618in, height=2.3514in, width=3.3529in]
+{C:/Users/jtybout/Dropbox/Presentations/graphics/MVUDQX02__3.pdf}%
+\end{figure}%
+%EndExpansion
+
+\begin{itemize}
+\item The firms that survive their first year grow exceptionally rapidly
+(see also Ruhl and Willis, 2008).
+\end{itemize}
+
+%TCIMACRO{\TeXButton{EndFrame}{\end{frame}}}%
+%BeginExpansion
+\end{frame}%
+%EndExpansion
+%TCIMACRO{\TeXButton{BeginFrame}{\begin{frame}}}%
+%BeginExpansion
+\begin{frame}%
+%EndExpansion
+
+\QTR{frametitle}{Cohort maturation}
+
+%TCIMACRO{%
+%\FRAME{ftbpF}{3.5717in}{2.2295in}{0pt}{}{}{Figure}{%
+%\special{language "Scientific Word";type "GRAPHIC";maintain-aspect-ratio TRUE;display "USEDEF";valid_file "T";width 3.5717in;height 2.2295in;depth 0pt;original-width 9.8286in;original-height 6.1203in;cropleft "0";croptop "1";cropright "1";cropbottom "0";tempfilename 'MVUDQX03.wmf';tempfile-properties "XPR";}}}%
+%BeginExpansion
+\begin{figure}[ptb]\centering
+\includegraphics[
+natheight=6.1203in, natwidth=9.8286in, height=2.2295in, width=3.5717in]
+{C:/Users/jtybout/Dropbox/Presentations/graphics/MVUDQX03__4.pdf}%
+\end{figure}%
+%EndExpansion
+
+\begin{itemize}
+\item Hence young cohorts typically gain market share despite rapid
+attrition.
+
+\item Post-1996 entrants account for about half of cumulative export
+expansion by 2005.
+\end{itemize}
+
+%TCIMACRO{\TeXButton{EndFrame}{\end{frame}}}%
+%BeginExpansion
+\end{frame}%
+%EndExpansion
+%TCIMACRO{\TeXButton{BeginFrame}{\begin{frame}}}%
+%BeginExpansion
+\begin{frame}%
+%EndExpansion
+
+\QTR{frametitle}{Cohort maturation}
+
+%TCIMACRO{%
+%\FRAME{ftbpF}{3.2923in}{2.1257in}{0pt}{}{}{Figure}{%
+%\special{language "Scientific Word";type "GRAPHIC";maintain-aspect-ratio TRUE;display "USEDEF";valid_file "T";width 3.2923in;height 2.1257in;depth 0pt;original-width 10.3855in;original-height 6.6902in;cropleft "0";croptop "1";cropright "1";cropbottom "0";tempfilename 'MVUDQX04.wmf';tempfile-properties "XPR";}}}%
+%BeginExpansion
+\begin{figure}[ptb]\centering
+\includegraphics[
+natheight=6.6902in, natwidth=10.3855in, height=2.1257in, width=3.2923in]
+{C:/Users/jtybout/Dropbox/Presentations/graphics/MVUDQX04__5.pdf}%
+\end{figure}%
+%EndExpansion
+
+\begin{itemize}
+\item Most new matches fail within a year, but
+
+\begin{itemize}
+\item Chances of survival are higher for matches with large initial sales
+
+\item Survival rates improve and converge for all matches after the first
+year.
+
+\item To sustain or increase exports, firms must continually replenish their
+foreign clientele.
+\end{itemize}
+\end{itemize}
+
+%TCIMACRO{\TeXButton{EndFrame}{\end{frame}}}%
+%BeginExpansion
+\end{frame}%
+%EndExpansion
+%TCIMACRO{\TeXButton{BeginFrame}{\begin{frame}}}%
+%BeginExpansion
+\begin{frame}%
+%EndExpansion
+
+%TCIMACRO{%
+%\FRAME{ftbpF}{3.5016in}{2.2969in}{0pt}{}{}{Figure}{%
+%\special{language "Scientific Word";type "GRAPHIC";maintain-aspect-ratio TRUE;display "USEDEF";valid_file "T";width 3.5016in;height 2.2969in;depth 0pt;original-width 12.276in;original-height 8.0367in;cropleft "0";croptop "1";cropright "1";cropbottom "0";tempfilename 'MVUDQX05.wmf';tempfile-properties "XPR";}}}%
+%BeginExpansion
+\begin{figure}[ptb]\centering
+\includegraphics[
+natheight=8.0367in, natwidth=12.276in, height=2.2969in, width=3.5016in]
+{C:/Users/jtybout/Dropbox/Presentations/graphics/MVUDQX05__6.pdf}%
+\end{figure}%
+%EndExpansion
+\bigskip
+
+\begin{itemize}
+\item Matches that start small tend to stay small.
+
+\item After a match's first year, there is no systematic tendency for its
+annual sales to grow.
+\end{itemize}
+
+%TCIMACRO{\TeXButton{EndFrame}{\end{frame}}}%
+%BeginExpansion
+\end{frame}%
+%EndExpansion
+%TCIMACRO{\TeXButton{BeginFrame}{\begin{frame}}}%
+%BeginExpansion
+\begin{frame}%
+%EndExpansion
+
+\QTR{frametitle}{A seriously Pareto client distribution}
+
+\begin{itemize}
+\item Most firms have a single buyer, but the distribution of client counts
+across exporters is fat-tailed.
+
+%TCIMACRO{%
+%\FRAME{ftbpF}{3.4817in}{2.5694in}{0pt}{}{}{Figure}{%
+%\special{language "Scientific Word";type "GRAPHIC";maintain-aspect-ratio TRUE;display "USEDEF";valid_file "T";width 3.4817in;height 2.5694in;depth 0pt;original-width 11.6637in;original-height 8.591in;cropleft "0";croptop "1";cropright "1";cropbottom "0";tempfilename 'MVUDQX06.wmf';tempfile-properties "XPR";}}}%
+%BeginExpansion
+\begin{figure}[ptb]\centering
+\includegraphics[
+natheight=8.591in, natwidth=11.6637in, height=2.5694in, width=3.4817in]
+{C:/Users/jtybout/Dropbox/Presentations/graphics/MVUDQX06__7.pdf}%
+\end{figure}%
+%EndExpansion
+\end{itemize}
+
+%TCIMACRO{\TeXButton{EndFrame}{\end{frame}}}%
+%BeginExpansion
+\end{frame}%
+%EndExpansion
+%TCIMACRO{\TeXButton{BeginFrame}{\begin{frame}}}%
+%BeginExpansion
+\begin{frame}%
+%EndExpansion
+
+\QTR{frametitle}{Year-to-year transitions in numbers of clients}
+
+\begin{tabular}{llllllllll}
+\multicolumn{10}{c}{\small Table 3: Transition Probabilities, Number of
+Clients} \\ \hline\hline
+{\small t}$\backslash ${\small t+1} & {\small exit} & {\small texit} & 
+{\small 1} & {\small 2} & {\small 3} & {\small 4} & {\small 5} & {\small 6-10%
+} & {\small 11+} \\ \hline
+{\small enter} & {\small 0.000} & {\small 0.000} & {\small 0.947} & {\small %
+0.044} & {\small 0.007} & {\small 0.002} & {\small 0.001} & {\small 0.001} & 
+{\small 0.000} \\ 
+{\small texit} & {\small 0.000} & {\small .} & {\small 0.896} & {\small 0.086%
+} & {\small 0.014} & {\small 0.004} & {\small .} & {\small .} & {\small 0.000%
+} \\ 
+{\small 1} & {\small 0.533} & {\small 0.081} & {\small 0.332} & {\small 0.043%
+} & {\small 0.008} & {\small 0.002} & {\small 0.001} & {\small .} & {\small .%
+} \\ 
+{\small 2} & {\small 0.180} & {\small 0.081} & {\small 0.375} & {\small 0.249%
+} & {\small 0.077} & {\small 0.026} & {\small 0.007} & {\small 0.005} & 
+{\small 0.000} \\ 
+{\small 3} & {\small 0.074} & {\small 0.043} & {\small 0.225} & {\small 0.282%
+} & {\small 0.206} & {\small 0.093} & {\small 0.047} & {\small .} & {\small .%
+} \\ 
+{\small 4} & {\small 0.045} & {\small .} & {\small 0.112} & {\small 0.226} & 
+{\small 0.259} & {\small 0.162} & {\small 0.097} & {\small 0.078} & {\small .%
+} \\ 
+{\small 5} & {\small .} & {\small .} & {\small 0.103} & {\small 0.184} & 
+{\small 0.197} & {\small 0.184} & {\small 0.094} & {\small 0.197} & {\small .%
+} \\ 
+{\small 6-10} & {\small .} & {\small .} & {\small .} & {\small 0.070} & 
+{\small 0.082} & {\small 0.114} & {\small 0.149} & {\small 0.465} & {\small %
+0.066} \\ 
+{\small 11+} & {\small 0.000} & {\small 0.000} & {\small 0.000} & {\small %
+0.000} & {\small 0.000} & {\small .} & {\small .} & {\small 0.440} & {\small %
+0.460} \\ \hline
+\end{tabular}%
+{\small \ }
+
+%TCIMACRO{\TeXButton{EndFrame}{\end{frame}}}%
+%BeginExpansion
+\end{frame}%
+%EndExpansion
+%TCIMACRO{\TeXButton{BeginFrame}{\begin{frame}}}%
+%BeginExpansion
+\begin{frame}%
+%EndExpansion
+
+\QTR{frametitle}{Key model features}
+
+\begin{itemize}
+\item Firms engage in costly \textbf{search} to meet potential buyers at
+home and (possibly) abroad.
+
+\item Firms new to the foreign market don't know what fraction of buyers
+there will be willing to do business with them.
+
+\item As they encounter potential buyers, firms gradually learn the scope of
+the market for their particular products, and they adjust their search
+intensities accordingly (\textbf{learning}).
+
+\item Search costs fall as firms accumulate successful business
+relationships \textbf{(reputation effects}).
+
+\item Maintaining a relationship with a buyer is costly, so a relationship
+that yields meager profits is dropped.
+
+\item Three types of shocks: marketwide, firm-specific, match-specific
+\end{itemize}
+
+%TCIMACRO{\TeXButton{EndFrame}{\end{frame}}}%
+%BeginExpansion
+\end{frame}%
+%EndExpansion
+%TCIMACRO{\TeXButton{BeginFrame}{\begin{frame}}}%
+%BeginExpansion
+\begin{frame}%
+%EndExpansion
+
+\QTR{frametitle}{Three model components}
+
+\begin{enumerate}
+\item A Seller-Buyer Relationship
+
+\item Learning About Product Appeal from Encounters with Potential Buyers
+
+\item Searching for Potential Buyers
+\end{enumerate}
+
+%TCIMACRO{\TeXButton{EndFrame}{\end{frame}}}%
+%BeginExpansion
+\end{frame}%
+%EndExpansion
+%TCIMACRO{\TeXButton{BeginFrame}{\begin{frame}}}%
+%BeginExpansion
+\begin{frame}%
+%EndExpansion
+
+\QTR{frametitle}{Why continuous time?}
+
+\begin{itemize}
+\item Two types of discrete events occur at random intervals, sometimes with
+high frequency
+
+\begin{itemize}
+\item Sellers meet buyers
+
+\item Once business relationships are established, orders are placed
+\end{itemize}
+
+\item With continuous time formulation we can:
+
+\begin{itemize}
+\item allow for an arbitrarily large number of events during any discrete
+interval
+
+\item allow agents to update their behavior each time an event occurs
+\end{itemize}
+\end{itemize}
+
+%TCIMACRO{\TeXButton{EndFrame}{\end{frame}}}%
+%BeginExpansion
+\end{frame}%
+%EndExpansion
+%TCIMACRO{\TeXButton{BeginFrame}{\begin{frame}}}%
+%BeginExpansion
+\begin{frame}%
+%EndExpansion
+
+\QTR{frametitle}{1. Relationship dynamics}
+
+\QTR{framesubtitle}{profits from a shipment}
+
+\begin{itemize}
+\item Define exogenous state variables:
+
+\begin{itemize}
+\item $\varphi _{j}$ productivity of seller $j$
+
+\item $x_{t}^{m}$ size of market $m\in \left\{ h,f\right\} $ (Markov jump
+process)
+
+\item $y_{ijt}^{m}$ idiosyncratic shock to operating profits from shipment
+to buyer $i$ by seller $j$ in market $m$ (Markov jump process)
+
+\item $\Pi ^{m}$ profit function scalar (so that all exogenous state
+variables can be normalized to mean log zero)
+\end{itemize}
+
+\item When buyer $i$ places an order with seller $j$ in market $m$ it
+generates operating profits:%
+\[
+\pi (x_{t}^{m},\varphi _{j},y_{ijt}^{m})=\Pi ^{m}x_{t}^{m}\varphi
+_{j}^{\sigma -1}y_{ijt}^{m}. 
+\]
+\end{itemize}
+
+Superscripts and subcripts mostly suppressed hereafter:%
+\[
+\pi _{\varphi }(x,y)=\Pi x\varphi ^{\eta -1}y 
+\]
+
+%TCIMACRO{\TeXButton{EndFrame}{\end{frame}}}%
+%BeginExpansion
+\end{frame}%
+%EndExpansion
+%TCIMACRO{\TeXButton{BeginFrame}{\begin{frame}}}%
+%BeginExpansion
+\begin{frame}%
+%EndExpansion
+
+\QTR{frametitle}{1. Relationship dynamics}
+
+\QTR{framesubtitle}{value of a business relationship}
+
+\begin{itemize}
+\item In active business relationships, buyers place orders with exogenous
+hazard $\lambda ^{b}$.%
+%TCIMACRO{\qhyperref{}{}{appendix}{\beamergotobutton{Details}}}%
+%BeginExpansion
+\hyperref{}{}{appendix}{\beamergotobutton{Details}}%
+%EndExpansion
+
+\item After each order, sellers must pay fixed cost $F$ to keep a business
+relationship active.
+
+\item Value to a type-$\varphi $ seller of a relationship in state $\{x,y\}$:%
+\[
+\widetilde{\pi }_{\varphi }(x,y)=\pi _{\varphi }(x,y)+\max \left\{ \widehat{%
+\pi }_{\varphi }(x,y)-F,0\right\} 
+\]
+
+\item $\widehat{\pi }_{\varphi }(x,y)$ is continuation value to a type-$%
+\varphi $ seller of a relationship in state $\{x,y\}$ 
+%TCIMACRO{\qhyperref{}{}{pihat_derivation}{\beamergotobutton{Details}}}%
+%BeginExpansion
+\hyperref{}{}{pihat_derivation}{\beamergotobutton{Details}}%
+%EndExpansion
+.
+
+\item Continuation values depend negatively on
+
+\begin{itemize}
+\item $\delta :$ exogenous hazard of relationship death.
+
+\item $\rho :$ seller's discount rate.
+\end{itemize}
+\end{itemize}
+
+%TCIMACRO{\TeXButton{EndFrame}{\end{frame}}}%
+%BeginExpansion
+\end{frame}%
+%EndExpansion
+%TCIMACRO{\TeXButton{BeginFrame}{\begin{frame}}}%
+%BeginExpansion
+\begin{frame}%
+%EndExpansion
+
+\QTR{frametitle}{1. Relationship dynamics}
+
+\QTR{framesubtitle}{expected value of a new relationship}
+
+\begin{itemize}
+\item Sellers don't know what $y$ value their next business relationship
+will begin from.
+
+\item Let $\Pr (y^{s})$ be the probability of initial shock $y^{s}$
+determined by the ergodic distribution of $y$.
+
+\item Expected value of a successful new encounter:%
+\[
+\widetilde{\pi }_{\varphi }(x)=\sum_{y^{s}}\Pr (y^{s})\widetilde{\pi }%
+_{\varphi }(s,y) 
+\]
+\end{itemize}
+
+%TCIMACRO{\TeXButton{EndFrame}{\end{frame}}}%
+%BeginExpansion
+\end{frame}%
+%EndExpansion
+%TCIMACRO{\TeXButton{BeginFrame}{\begin{frame}}}%
+%BeginExpansion
+\begin{frame}%
+%EndExpansion
+
+\QTR{frametitle}{2. Learning about product appeal}
+
+\QTR{framesubtitle}{the "true" scope of the market}
+
+\begin{itemize}
+\item Fraction of potential buyers in market $m$ who are interested in
+seller $j$'s product: $\theta _{j}^{m}\in \lbrack 0,1]$ of total potential
+buyers.
+
+\item Assume $\theta _{j}^{^{m}\prime }s$ are time-invariant, mutually
+independent draws from a beta distribution:
+\end{itemize}
+
+\[
+r(\theta |\alpha ,\beta )=\frac{\Gamma (\alpha +\beta )}{\Gamma (\alpha
+)\Gamma (\beta )}\left( \theta \right) ^{\alpha -1}(1-\theta )^{\beta -1}, 
+\]
+
+\begin{itemize}
+\item Expected value:%
+\[
+E(\theta |\alpha ,\beta )=\frac{\alpha }{\alpha +\beta .} 
+\]
+
+\item Posterior beliefs, after meeting $n^{m}$ potential clients in market $%
+m $, $a^{m}$ of whom want to do business:%
+%TCIMACRO{\qhyperref{}{}{Bayesian_details}{\beamergotobutton{Details}}}%
+%BeginExpansion
+\hyperref{}{}{Bayesian_details}{\beamergotobutton{Details}}%
+%EndExpansion
+\[
+\overline{\theta }^{m}(a^{m},n^{m})=E\left[ \theta ^{m}|a^{m},n^{m}\right] =%
+\frac{a^{m}+\alpha }{n^{m}+\alpha +\beta } 
+\]
+\end{itemize}
+
+%TCIMACRO{\TeXButton{EndFrame}{\end{frame}}}%
+%BeginExpansion
+\end{frame}%
+%EndExpansion
+%TCIMACRO{\TeXButton{BeginFrame}{\begin{frame}}}%
+%BeginExpansion
+\begin{frame}%
+%EndExpansion
+
+\QTR{frametitle}{3. Searching for buyers}
+
+\QTR{framesubtitle}{the cost of search}
+
+\begin{itemize}
+\item Seller continuously chooses the hazard $s$ with which she encounters a
+potential buyer at a flow cost $c(s,a)$
+
+\begin{itemize}
+\item Maintain web site
+
+\item Pay to be near top of web search listings
+
+\item Attend trade fairs
+
+\item Research foreign buyers
+
+\item Send sales reps. to foreign markets
+
+\item Maintain foreign sales office
+\end{itemize}
+
+\item The number of successful encounters, $a$, allows for network effects
+(NYT 2/27/12: Panjiva, ImportGenius).
+
+\item Functional form used for estimation (Arkolakis, 2010):%
+\[
+c(s,a)=\kappa _{0}\frac{(1+s)^{\left( 1+1/\kappa _{1}\right) }-1}{%
+(1+a)^{\gamma \cdot \left( 1+1/\kappa _{1}\right) }\left( 1+1/\kappa
+_{1}\right) } 
+\]
+\end{itemize}
+
+%TCIMACRO{\TeXButton{EndFrame}{\end{frame}}}%
+%BeginExpansion
+\end{frame}%
+%EndExpansion
+%TCIMACRO{\TeXButton{BeginFrame}{\begin{frame}}}%
+%BeginExpansion
+\begin{frame}%
+%EndExpansion
+
+\QTR{frametitle}{3. Searching for buyers}
+
+\QTR{framesubtitle}{the value of search abroad}
+
+\begin{itemize}
+\item Let $V_{\varphi }(a,n,x)$ be the value of continued search for a type-$%
+\varphi $ firm with $a$ successes in $n$ meetings.
+
+\item The first-order for optimal search abroad is:%
+%TCIMACRO{\qhyperref{}{}{optimal_search}{\beamergotobutton{Details}}}%
+%BeginExpansion
+\hyperref{}{}{optimal_search}{\beamergotobutton{Details}}%
+%EndExpansion
+\begin{eqnarray*}
+c_{s}(s^{\ast },a) &=&\overline{\theta }_{a,n}(\widetilde{\pi }_{\varphi
+}(x)+V_{\varphi }(a+1,n+1,x)) \\
+&&+(1-\overline{\theta }_{a,n})V_{\varphi }(a,n+1,x)-V_{\varphi }(a,n,x).
+\end{eqnarray*}
+\end{itemize}
+
+%TCIMACRO{\TeXButton{EndFrame}{\end{frame}}}%
+%BeginExpansion
+\end{frame}%
+%EndExpansion
+%TCIMACRO{\TeXButton{BeginFrame}{\begin{frame}}}%
+%BeginExpansion
+\begin{frame}%
+%EndExpansion
+
+\QTR{frametitle}{3. Searching for buyers}
+
+\QTR{framesubtitle}{when the truth is known: the domestic market}
+
+\begin{itemize}
+\item As $n$ increases $\overline{\theta }_{a,n}$ converges to the true $%
+\theta .$ There is no more learning and the reward to search depends on $a$
+and $n$ only through network effects.
+
+\item We assume this characterizes the domestic market, so the first-order
+condition for optimal search at home is:%
+\[
+c_{s}(s^{\ast },a)=\theta _{j}\widetilde{\pi }_{\varphi }(x). 
+\]
+\end{itemize}
+
+%TCIMACRO{\TeXButton{EndFrame}{\end{frame}}}%
+%BeginExpansion
+\end{frame}%
+%EndExpansion
+%TCIMACRO{\TeXButton{BeginFrame}{\begin{frame}}}%
+%BeginExpansion
+\begin{frame}%
+%EndExpansion
+
+\begin{flushleft}
+\QTR{frametitle}{Estimation}
+
+\QTR{framesubtitle}{The exogenous state variables}
+\end{flushleft}
+
+\begin{itemize}
+\item Assume $x^{f},$ $x^{h},$ and $y$ follow independent Ehrenfest
+diffusion processes.
+
+\begin{itemize}
+\item Any variable $z$ that obeys this process is discretized into $2e+1$
+possible values, $e\in I^{+}:$ $z\in \{-e\Delta ,$ $-(e-1)\Delta ,$ $..,$ $%
+0,..,$ $(e-1)\Delta ,$ $e\Delta \}.$
+
+\item Process jumps with hazard $\lambda _{z},$ and when it does so:%
+\[
+z^{\prime }=\left\{ 
+\begin{array}{c}
+z+\Delta \\ 
+z-\Delta \\ 
+\text{other}%
+\end{array}%
+\right. \text{with probability }\left\{ 
+\begin{array}{c}
+\frac{1}{2}\left( 1-\frac{z}{e\bigtriangleup }\right) \\ 
+\frac{1}{2}\left( 1+\frac{z}{e\bigtriangleup }\right) \\ 
+0%
+\end{array}%
+\right. . 
+\]
+\end{itemize}
+
+\item As the grid becomes finer, this type of random variable asymptotes to
+an Ornstein-Uhlenbeck processes: 
+\[
+dz=-\mu zdt+\sigma dW 
+\]
+\end{itemize}
+
+%TCIMACRO{\TeXButton{EndFrame}{\end{frame}}}%
+%BeginExpansion
+\end{frame}%
+%EndExpansion
+%TCIMACRO{\TeXButton{BeginFrame}{\begin{frame}}}%
+%BeginExpansion
+\begin{frame}%
+%EndExpansion
+
+\begin{flushleft}
+\QTR{frametitle}{Estimation}
+
+\QTR{framesubtitle}{The exogenous state variables}
+\end{flushleft}
+
+\begin{itemize}
+\item If $z$ observed at regular intervals, can estimate $\mu $ and $\sigma $
+by regressing $z$ on lagged $z$
+
+\item For $x^{f},x^{h},$ obtain maximum likelihood estimates of $\mu $ and $%
+\sigma $ using logged and de-meaned time series on total real consumption of
+manufactured goods in each country.
+
+\item Recover $\lambda _{z}$ and $\Delta $ using Shimer's result that
+asymptotically, $\mu =\lambda _{z}/e$, $\sigma =\sqrt{\lambda _{z}}\Delta $.
+
+\item This gives us the $q_{xx^{\prime }}^{X}$ values needed to construct $%
+q_{yy^{\prime }}^{Y}$'s for home and foreign markets.
+
+\item Since $y$ is unobservable, recover the parameters of its jump
+processes using the structure of the dynamic model.
+\end{itemize}
+
+%TCIMACRO{\TeXButton{EndFrame}{\end{frame}}}%
+%BeginExpansion
+\end{frame}%
+%EndExpansion
+%TCIMACRO{\TeXButton{BeginFrame}{\begin{frame}}}%
+%BeginExpansion
+\begin{frame}%
+%EndExpansion
+
+\begin{flushleft}
+\QTR{frametitle}{Estimation}
+
+\QTR{framesubtitle}{The exogenous state variables}
+\end{flushleft}
+
+\begin{center}
+\begin{tabular}{lcc}
+\hline\hline
+\multicolumn{3}{c}{\textbf{Market-wide Shock Processes (}$x^{f},x^{h}$%
+\textbf{)}} \\ \hline
+\textbf{Orstein-Uhlenbeck Parameters} & \textbf{Colombia} & \textbf{United
+States} \\ \hline
+$\mu ${\small \ Mean Reversion} & {\small 0.171} & {\small 0.174} \\ 
+$\sigma ${\small \ Dispersion} & {\small 0.003} & {\small 0.058} \\ \hline
+\textbf{Ehrenfest Process Parameters} &  &  \\ \hline
+$\lambda ${\small \ Jump Hazard} & {\small 1.200} & {\small 1.215} \\ 
+$\Delta ${\small \ Jump Size} & {\small 0.003} & {\small 0.053} \\ 
+{\small grid points} & {\small 15} & {\small 15} \\ \hline
+\end{tabular}
+\end{center}
+
+%TCIMACRO{\TeXButton{EndFrame}{\end{frame}}}%
+%BeginExpansion
+\end{frame}%
+%EndExpansion
+%TCIMACRO{\TeXButton{BeginFrame}{\begin{frame}}}%
+%BeginExpansion
+\begin{frame}%
+%EndExpansion
+
+\QTR{frametitle}{Estimation}
+
+\QTR{framesubtitle}{remaining parameters}
+
+\begin{itemize}
+\item Unidentified preference parameters taken from literature: $\rho =0.05,$
+$\sigma =5$
+
+\item Remaining parameters identified using indirect inference
+\end{itemize}
+
+\[
+\Lambda =\left( {\small \Pi }^{h},{\small \Pi }^{f.},{\small \delta ,}F,%
+{\small \alpha },{\small \beta },\sigma _{\varphi },\lambda _{y},{\small %
+\lambda }_{b},{\small \gamma ,\kappa _{0},\kappa _{1}}\right) 
+\]
+
+%TCIMACRO{\TeXButton{EndFrame}{\end{frame}}}%
+%BeginExpansion
+\end{frame}%
+%EndExpansion
+%TCIMACRO{\TeXButton{BeginFrame}{\begin{frame}}}%
+%BeginExpansion
+\begin{frame}%
+%EndExpansion
+
+\QTR{frametitle}{Indirect inference (Gouri\'{e}roux and Monfort, 1996)}
+
+\QTR{framesubtitle}{basic idea}
+
+\begin{itemize}
+\item Using reduced-form auxillary regressions and/or moments, summarize key
+relationships in the data using a vector of statistics ($\widehat{\mathbf{M}}
+$)
+
+\item For a candidate set of parameter values ($\Lambda $), simulate same
+statistics using the model $\widehat{\mathbf{M}}^{s}$($\Lambda $).
+
+\item Construct the loss function: 
+\[
+Q(\Lambda )=\left( \widehat{\mathbf{M}}-\widehat{\mathbf{M}}^{s}(\Lambda
+)\right) ^{\prime }\Omega \left( \widehat{\mathbf{M}}-\widehat{\mathbf{M}}%
+^{s}(\Lambda )\right) 
+\]%
+where $\Omega $ is a positive definite weighting matrix.
+
+\item Use a robust algorithm to search parameter space for $\widehat{\Lambda 
+}=\arg \min Q(\Lambda ).$
+\end{itemize}
+
+%TCIMACRO{\TeXButton{EndFrame}{\end{frame}}}%
+%BeginExpansion
+\end{frame}%
+%EndExpansion
+%TCIMACRO{\TeXButton{BeginFrame}{\begin{frame}}}%
+%BeginExpansion
+\begin{frame}%
+%EndExpansion
+
+\QTR{frametitle}{Indirect inference}
+
+\QTR{framesubtitle}{identification}
+
+\begin{itemize}
+\item \textbf{Profit scaling constants}, (${\small \Pi }^{h}$, ${\small \Pi }%
+^{f})$
+
+\begin{itemize}
+\item means of log home and foreign sales
+\end{itemize}
+
+\item \textbf{Shipment hazards} (${\small \lambda }^{b}$)
+
+\begin{itemize}
+\item average annual shipment rates per match
+\end{itemize}
+
+\item \textbf{Product appeal parameters} $(\alpha ,$\ $\beta )$
+
+\begin{itemize}
+\item distribution of home and foreign sales
+\end{itemize}
+
+\item \textbf{Firm productivity dispersion} $(\sigma _{\varphi })$
+
+\begin{itemize}
+\item distribution of home and foreign sales
+
+\item covariance of home and foreign sales
+\end{itemize}
+
+\item \textbf{Search cost parameters} (${\small \kappa }_{0}{\small ,}$ $%
+\kappa _{1},$ $\gamma )$
+
+\begin{itemize}
+\item match rates
+
+\item client frequency distribution (especially fatness of tail)
+
+\item client transition probabilites
+
+\item fraction of firms that export
+\end{itemize}
+\end{itemize}
+
+%TCIMACRO{\TeXButton{EndFrame}{\end{frame}}}%
+%BeginExpansion
+\end{frame}%
+%EndExpansion
+%TCIMACRO{\TeXButton{BeginFrame}{\begin{frame}}}%
+%BeginExpansion
+\begin{frame}%
+%EndExpansion
+
+\QTR{frametitle}{Indirect inference}
+
+i\QTR{framesubtitle}{dentification}
+
+\begin{itemize}
+\item \textbf{Idioysncratic shocks to importers (}$\lambda ^{y}$\textbf{)}
+
+\begin{itemize}
+\item cross-plant variances in home and foreign sales
+
+\item covariation of home and foreign sales
+
+\item autocorrelation, match-specific sales
+
+\item client frequency distribution, client transition probabilites
+\end{itemize}
+
+\item \textbf{Match maintenance costs} (${\small F)}$
+
+\begin{itemize}
+\item client frequency distribution, client transition probabilites
+
+\item sales among new versus established matches
+
+\item age-specific match failure rates
+\end{itemize}
+
+\item \textbf{Exogenous match separation hazard} (${\small \delta }{\small )}
+$
+
+\begin{itemize}
+\item separation rates after first year
+
+\item age-specific match failure rates
+
+\item client frequency distribution
+\end{itemize}
+\end{itemize}
+
+%TCIMACRO{\TeXButton{EndFrame}{\end{frame}}}%
+%BeginExpansion
+\end{frame}%
+%EndExpansion
+%TCIMACRO{\TeXButton{BeginFrame}{\begin{frame}}}%
+%BeginExpansion
+\begin{frame}%
+%EndExpansion
+
+\QTR{frametitle}{Data versus simulated statistics}
+
+\begin{center}
+{\small 
+\begin{tabular}{llllll}
+\multicolumn{6}{c}{} \\ \hline\hline
+\textbf{Transition probs., }                   &                           &                           & \textbf{Share of firms }        &                            &                           \\
+\textbf{no. clients (}$n^{c}$\textbf{)}        & \multicolumn{1}{r}{Data}  & \multicolumn{1}{r}{Model} & \textbf{exporting}              & \multicolumn{1}{r}{Data}   & \multicolumn{1}{r}{Model} \\ \hline
+$\widehat{P}[n_{jt+1}^{c}=0|n_{jt}^{c}=1]$     & \multicolumn{1}{r}{0.618} & \multicolumn{1}{r}{0.650} & $\widehat{E}(1_{X_{jt}^{f}>0})$ & \multicolumn{1}{r}{0.299}  & \multicolumn{1}{r}{0.359} \\
+$\widehat{P}[n_{jt+1}^{c}=1|n_{jt}^{c}=1]$     & \multicolumn{1}{r}{0.321} & \multicolumn{1}{r}{0.320} &                                 & \multicolumn{1}{r}{}       & \multicolumn{1}{r}{}      \\
+$\widehat{P}[n_{jt+1}^{c}=2|n_{jt}^{c}=1]$     & \multicolumn{1}{r}{0.048} & \multicolumn{1}{r}{0.027} & \textbf{Log foreign sales on}   & \multicolumn{1}{r}{}       & \multicolumn{1}{r}{}      \\
+$\widehat{P}[n_{jt+1}^{c}\geq 3|n_{jt}^{c}=1]$ & \multicolumn{1}{r}{0.013} & \multicolumn{1}{r}{0.002} & \textbf{log domestic sales}     & \multicolumn{1}{r}{ Data}  & \multicolumn{1}{r}{Model} \\ \cline{4-6}
+$\widehat{P}[n_{jt+1}^{c}=0|n_{jt}^{c}=2]$     & \multicolumn{1}{r}{0.271} & \multicolumn{1}{r}{0.443} &                                 & \multicolumn{1}{r}{}       & \multicolumn{1}{r}{}      \\
+$\widehat{P}[n_{jt+1}^{c}=1|n_{jt}^{c}=2]$     & \multicolumn{1}{r}{0.375} & \multicolumn{1}{r}{0.339} & $\widehat{\beta }_{1}^{hf}$     & \multicolumn{1}{r}{ 0.727} & \multicolumn{1}{r}{0.877} \\
+$\widehat{P}[n_{jt+1}^{c}=2|n_{jt}^{c}=2]$     & \multicolumn{1}{r}{0.241} & \multicolumn{1}{r}{0.165} & $s\widehat{e}(\epsilon ^{hf})$  & \multicolumn{1}{r}{2.167}  & \multicolumn{1}{r}{0.640} \\
+$\widehat{P}[n_{jt+1}^{c}\geq 3|n_{jt}^{c}=2]$ & \multicolumn{1}{r}{0.113} & \multicolumn{1}{r}{0.052} &                                 & \multicolumn{1}{r}{}       & \multicolumn{1}{r}{}      \\ \hline
+\end{tabular}%
+}
+\end{center}
+
+%TCIMACRO{\TeXButton{EndFrame}{\end{frame}}}%
+%BeginExpansion
+\end{frame}%
+%EndExpansion
+%TCIMACRO{\TeXButton{BeginFrame}{\begin{frame}}}%
+%BeginExpansion
+\begin{frame}%
+%EndExpansion
+
+\QTR{frametitle}{Data versus simulated statistics}
+
+\begin{center}
+{\small 
+\begin{tabular}{lrrlrr}
+\multicolumn{6}{c}{} \\ \hline\hline
+\textbf{Match death hazards}      & Data  & Model & \textbf{Exporter exit rate}       & Data  & Model \\ \hline
+$Death$ $rate,$ $A_{ijt-1}^{m}=0$ & 0.694 & 0.649 & $Exit$ $rate,$ $ A_{ijt-1}^{m}=0$ & 0.709 & 0.725 \\
+$Death$ $rate,$ $A_{ijt-1}^{m}=1$ & 0.515 & 0.484 & $Exit$ $rate,$ $ A_{ijt-1}^{m}=1$ & 0.383 & 0.312 \\
+$Death$ $rate,$ $A_{ijt-1}^{m}=2$ & 0.450 & 0.531 & $Exit$ $rate,$ $ A_{ijt-1}^{m}=2$ & 0.300 & 0.462 \\
+$Death$ $rate,$ $A_{ijt-1}^{m}=3$ & 0.424 & 0.546 & $Exit$ $rate,$ $ A_{ijt-1}^{m}=3$ & 0.263 & 0.102 \\
+$Death$ $rate,$ $A_{ijt-1}^{m}=4$ & 0.389 & 0.485 & $Exit$ $rate,$ $ A_{ijt-1}^{m}=4$ & 0.293 & 0.200 \\ \hline
+\end{tabular}%
+}
+\end{center}
+
+%TCIMACRO{\TeXButton{EndFrame}{\end{frame}}}%
+%BeginExpansion
+\end{frame}%
+%EndExpansion
+%TCIMACRO{\TeXButton{BeginFrame}{\begin{frame}}}%
+%BeginExpansion
+\begin{frame}%
+%EndExpansion
+
+\QTR{frametitle}{Data versus simulated statistics}
+
+\begin{center}
+{\small 
+\begin{tabular}{llllll}
+\multicolumn{6}{c}{} \\ \hline\hline
+\textbf{Log sales per client }    &                            &                             & \textbf{Ave. log \ sales}                      &                             &                            \\
+\textbf{vs. no. clients}          & \multicolumn{1}{r}{Data}   & \multicolumn{1}{r}{ Model}  & \textbf{\ by cohort age }                      & \multicolumn{1}{r}{Data}    & \multicolumn{1}{r}{Model}  \\ \hline
+$\widehat{\beta }_{1}^{m}$        & \multicolumn{1}{r}{2.677}  & \multicolumn{1}{r}{0.422}   & $\widehat{E}(\ln X_{jt}^{f}|A_{jt}^{c}=0)$     & \multicolumn{1}{r}{ 8.960}  & \multicolumn{1}{r}{10.181} \\
+$\widehat{\beta }_{2}^{m}$        & \multicolumn{1}{r}{-0.143} & \multicolumn{1}{r}{0.317}   & $\widehat{E}(\ln X_{jt}^{f}|A_{jt}^{c}=1)$     & \multicolumn{1}{r}{ 10.018} & \multicolumn{1}{r}{11.124} \\
+$s\widehat{e}(\epsilon ^{m})$     & \multicolumn{1}{r}{2.180}  & \multicolumn{1}{r}{1.449}   & $\widehat{E}(\ln X_{jt}^{f}|A_{jt}^{c}=2)$     & \multicolumn{1}{r}{10.231}  & \multicolumn{1}{r}{11.030} \\
+\textbf{No. clients, inverse}     & \multicolumn{1}{r}{}       & \multicolumn{1}{r}{}        & $\widehat{E}(\ln X_{jt}^{f}|A_{jt}^{c}=3)$     & \multicolumn{1}{r}{10.369}  & \multicolumn{1}{r}{11.021} \\
+\textbf{CDF regression}           & \multicolumn{1}{r}{Data}   & \multicolumn{1}{r}{Model }  & $\widehat{E}(\ln X_{jt}^{f}|A_{jt}^{c}\geq 4)$ & \multicolumn{1}{r}{ 10.473} & \multicolumn{1}{r}{11.178} \\ \cline{1-3}
+$\widehat{\beta _{1}}^{c}$        & \multicolumn{1}{r}{-1.667} & \multicolumn{1}{r}{ -2.501} &                                                & \multicolumn{1}{r}{}        & \multicolumn{1}{r}{}       \\
+$s\widehat{e}(\epsilon ^{n^{c}})$ & \multicolumn{1}{r}{0.066}  & \multicolumn{1}{r}{  0.048} &                                                & \multicolumn{1}{r}{}        & \multicolumn{1}{r}{}       \\
+                                  &                            &                             &                                                & \multicolumn{1}{r}{}        & \multicolumn{1}{r}{}       \\ \hline
+\end{tabular}%
+}{\tiny \ }
+\end{center}
+
+%TCIMACRO{\TeXButton{EndFrame}{\end{frame}}}%
+%BeginExpansion
+\end{frame}%
+%EndExpansion
+%TCIMACRO{\TeXButton{BeginFrame}{\begin{frame}}}%
+%BeginExpansion
+\begin{frame}%
+%EndExpansion
+
+\QTR{frametitle}{Data versus simulated statistics}
+
+\begin{center}
+{\small 
+\begin{tabular}{lrrlrr}
+\multicolumn{6}{c}{} \\ \hline\hline
+\textbf{Match death }                    &        &        & $\ $\textbf{Log match }          &       &       \\
+\textbf{prob regression}                 & Data   & Model  & $\ $\textbf{sale autoreg.}       & Data  & Model \\ \hline
+$\widehat{\beta }_{0}^{d}$               & 1.174  & 1.277  & $\widehat{\beta }_{1}^{f}$       & 0.811 & 0.849 \\
+$\widehat{\beta }_{\mbox{1st year}}^{d}$ & 0.166  & 0.061  & $\beta _{% \mbox{1st year}}^{f}$ & 0.233 & 0.150 \\
+$\widehat{\beta }_{\mbox{lsales}}^{d}$   & -0.070 & -0.055 & $s\widehat{e} (\epsilon ^{f})$   & 1.124 & 0.330 \\
+$s\widehat{e}(\epsilon ^{d})$            & 0.453  & 0.441  & $\ $\textbf{Log dom. sales }     &       &       \\
+\textbf{Match shipments }                &        &        & \textbf{autoregression}          & Data  & Model \\ \cline{4-6}
+\textbf{per year}                        & Data   & Model  & $\widehat{\beta }_{1}^{h}$       & 0.976 & 0.907 \\ \cline{1-3}
+$\widehat{E}\left( n^{s}\right) $        & 4.824  & 1.416  & $s\widehat{e}(\epsilon ^{h})$    & 0.462 & 0.656 \\ \hline
+\end{tabular}%
+}{\tiny \ }
+\end{center}
+
+%TCIMACRO{\TeXButton{EndFrame}{\end{frame}}}%
+%BeginExpansion
+\end{frame}%
+%EndExpansion
+%TCIMACRO{\TeXButton{BeginFrame}{\begin{frame}}}%
+%BeginExpansion
+\begin{frame}%
+%EndExpansion
+
+\QTR{frametitle}{Parameters}
+
+\begin{center}
+{\small 
+\begin{tabular}{llrr}
+\hline\hline
+\multicolumn{4}{c}{\textbf{Parameters Estimated using indirect inference (}$%
+\Lambda $\textbf{)}} \\ \hline
+                                        & \textit{Parameter} & \textit{value} & \textit{std. error} \\ \cline{2-4}
+rate of exogenous separation            & $\delta $          & 0.65           &                     \\
+domestic market size                    & $\Pi ^{h}$         & 7.914          &                     \\
+foreign market size                     & $\Pi ^{f}$         & 7.363          &                     \\
+log fixed cost                          & $\ln F$            & 7.317          &                     \\
+First $\theta $ distribution parameter  & $\alpha $          & 1.654          &                     \\
+Second $\theta $ distribution parameter & $\beta $           & 3.088          &                     \\ \hline
+\end{tabular}%
+}
+\end{center}
+
+\begin{itemize}
+\item {\small fixed cost of maintaining a relationship: exp(7.317) =
+\$1,506, about ??\% of the value of a typical shipment.}
+
+\item {\small about }$\alpha /(\alpha +\beta )$ {\small = 0.35 of the
+potential buyers a typical exporter meets are interested in doing business}
+
+\item {\small success rates vary across exporters with standard deviation\ }$%
+\sqrt{\alpha \beta /\left[ (\alpha +\beta )^{2}(\alpha +\beta +1)\right] }=$%
+{\small \ 0.199}
+\end{itemize}
+
+%TCIMACRO{\TeXButton{EndFrame}{\end{frame}}}%
+%BeginExpansion
+\end{frame}%
+%EndExpansion
+%TCIMACRO{\TeXButton{BeginFrame}{\begin{frame}}}%
+%BeginExpansion
+\begin{frame}%
+%EndExpansion
+
+\QTR{frametitle}{Parameters}
+
+\begin{center}
+{\small 
+\begin{tabular}{llrr}
+\multicolumn{4}{c}{\textbf{Parameters Estimated using indirect inference (}$%
+\Lambda $\textbf{)}} \\ \hline\hline
+& \textit{Parameter} & \textit{value} & \textit{std. error} \\ \cline{2-4}
+demand shock jump hazard                                     & $\lambda _{y}$       & 0.501    &       \\
+demand shock jump size                                       & $\Delta ^{y}$        & 0.037    &       \\
+shipment order arrival hazard                                & $\lambda _{b}$       & 1.216    &       \\
+std. deviation, log firm type                                & $\sigma _{\varphi }$ & 0.628    &       \\
+network effect parameter                                     & $\gamma $            & 0.011    &       \\
+\multicolumn{1}{c}{search cost function curvature parameter} & $\kappa _{1}$
+                                                             & 0.041                & 0.001            \\
+search cost function scale parameter                         & $\kappa _{0}$        & 132.533  &       \\
+\hline
+\end{tabular}%
+}
+\end{center}
+
+\begin{itemize}
+\item {\small convexity of search cost function is important}
+
+\item {\small cost of search at hazard }$s=0.6${\small : }${\small \$6,829}$%
+{\small \ when }$a=0${\small ; }${\small \$5614}${\small \ when }$a=1${\small ; }${\small \$2,888}${\small \ when } $a=20.$
+
+\item {\small "lock-in" effect}
+\end{itemize}
+
+%TCIMACRO{\TeXButton{EndFrame}{\end{frame}}}%
+%BeginExpansion
+\end{frame}%
+%EndExpansion
+%TCIMACRO{\TeXButton{BeginFrame}{\begin{frame}}}%
+%BeginExpansion
+\begin{frame}%
+%EndExpansion
+
+\QTR{frametitle}{Parameters}
+
+\QTR{framesubtitle}{restricted models}
+
+%TCIMACRO{%
+%\FRAME{ftbpF}{4.0966in}{2.2087in}{0pt}{}{}{Figure}{%
+%\special{language "Scientific Word";type "GRAPHIC";maintain-aspect-ratio TRUE;display "USEDEF";valid_file "T";width 4.0966in;height 2.2087in;depth 0pt;original-width 7.2705in;original-height 3.9003in;cropleft "0";croptop "1";cropright "1";cropbottom "0";tempfilename 'MVUDQX07.wmf';tempfile-properties "PR";}}}%
+%BeginExpansion
+%EndExpansion
+
+\begin{itemize}
+\item {\small no-learning model, treats firms as knowing their exact }$%
+\theta ^{f}${\small \ draws}
+
+\item {\small no-network model shuts down reputation effects by imposing }$%
+\gamma =0$
+\end{itemize}
+
+%TCIMACRO{\TeXButton{EndFrame}{\end{frame}}}%
+%BeginExpansion
+\end{frame}%
+%EndExpansion
+%TCIMACRO{\TeXButton{BeginFrame}{\begin{frame}}}%
+%BeginExpansion
+\begin{frame}%
+%EndExpansion
+
+\QTR{frametitle}{Parameters}
+
+\QTR{framesubtitle}{The no-learning model}
+
+\begin{itemize}
+\item Rapid turnover of novice exporters less likely:
+
+\begin{itemize}
+\item discourages inexperienced low-$\theta ^{f}$ firms from exploring
+foreign markets
+
+\item eliminates learning-based exit.
+\end{itemize}
+
+\item High-$\theta ^{f}$ firms do not intensify their search efforts as they
+receive positive feedback.
+
+\item Lower productivity firms induced to participate in export markets by a
+
+\begin{itemize}
+\item rightward shift in $\theta ^{f}$ distribution and
+
+\item higher values for $\Pi ^{f}$ and $\lambda _{b}$
+\end{itemize}
+
+\item Match failure rates and market exit rates are sustained by
+
+\begin{itemize}
+\item higher values for $F,$ $\delta ,$ and $\lambda _{y}$.
+\end{itemize}
+
+\item Model badly overstates the share of firms that export, overstates the
+relationship between sales per client and number of clients.
+\end{itemize}
+
+%TCIMACRO{\TeXButton{EndFrame}{\end{frame}}}%
+%BeginExpansion
+\end{frame}%
+%EndExpansion
+%TCIMACRO{\TeXButton{BeginFrame}{\begin{frame}}}%
+%BeginExpansion
+\begin{frame}%
+%EndExpansion
+
+\QTR{frametitle}{Parameters}
+
+\QTR{framesubtitle}{The no-network model}
+
+\begin{itemize}
+\item Model moves part way toward matching the Pareto shape by reducing the
+convexity of the search cost function, $\kappa _{1}.$
+
+\item This is an imperfect fix because all exporters are equally affected by 
+$\kappa _{1}$, not just the larger ones.
+
+\item Various other adjustments occur, including:
+
+\begin{itemize}
+\item modest increase in $F$,
+
+\item rightward shift in the $\theta $ distribution, an
+
+\item increase in the variance of $\varphi ,$
+
+\item increase in the jump hazard for buyer shocks, $\lambda _{y}$
+\end{itemize}
+
+\item Client distribution is far from Pareto: model is unable to explain the
+existence of very large exporters; overstates the fraction of firms that
+export.
+\end{itemize}
+
+%TCIMACRO{\TeXButton{EndFrame}{\end{frame}}}%
+%BeginExpansion
+\end{frame}%
+%EndExpansion
+%TCIMACRO{\TeXButton{BeginFrame}{\begin{frame}}}%
+%BeginExpansion
+\begin{frame}%
+%EndExpansion
+
+\QTR{frametitle}{The policy function}
+
+\begin{itemize}
+\item Search intensity over trials and productivity, holding the number of
+successes constant at 0. 
+%TCIMACRO{%
+%\FRAME{ftbpF}{3.1237in}{2.4284in}{0pt}{}{}{original_policy_no_suc.eps}{%
+%\special{language "Scientific Word";type "GRAPHIC";maintain-aspect-ratio TRUE;display "USEDEF";valid_file "F";width 3.1237in;height 2.4284in;depth 0pt;original-width 7.1676in;original-height 5.5642in;cropleft "0";croptop "1";cropright "1";cropbottom "0";filename '../current docs/Eaton project/figures/eps_plots/original_policy_no_suc.eps';file-properties "NPEU";}}}%
+%BeginExpansion
+%EndExpansion
+\end{itemize}
+
+%TCIMACRO{\TeXButton{EndFrame}{\end{frame}}}%
+%BeginExpansion
+\end{frame}%
+%EndExpansion
+%TCIMACRO{\TeXButton{BeginFrame}{\begin{frame}}}%
+%BeginExpansion
+\begin{frame}%
+%EndExpansion
+
+\QTR{frametitle}{History and the policy function}
+
+\begin{itemize}
+\item Search intensity as a function of past successes and failures,
+allowing for reputation effects%
+%TCIMACRO{%
+%\FRAME{ftbpF}{3.3399in}{2.6264in}{0pt}{}{}{original_policy.eps}{%
+%\special{language "Scientific Word";type "GRAPHIC";maintain-aspect-ratio TRUE;display "USEDEF";valid_file "F";width 3.3399in;height 2.6264in;depth 0pt;original-width 7.0854in;original-height 5.5642in;cropleft "0";croptop "1";cropright "1";cropbottom "0";filename '../current docs/Eaton project/figures/eps_plots/original_policy.eps';file-properties "NPEU";}}}%
+%BeginExpansion
+%EndExpansion
+\end{itemize}
+
+%TCIMACRO{\TeXButton{EndFrame}{\end{frame}}}%
+%BeginExpansion
+\end{frame}%
+%EndExpansion
+%TCIMACRO{\TeXButton{BeginFrame}{\begin{frame}}}%
+%BeginExpansion
+\begin{frame}%
+%EndExpansion
+
+\QTR{frametitle}{History and the policy function}
+
+\begin{itemize}
+\item Search intensity as a function of past successes and failures,
+shutting down reputation effects. (Successes held constant at 0.)%
+%TCIMACRO{%
+%\FRAME{ftbpF}{2.5477in}{1.9813in}{0pt}{}{}{no network_policy_no_suc.eps}{%
+%\special{language "Scientific Word";type "GRAPHIC";maintain-aspect-ratio TRUE;display "USEDEF";valid_file "F";width 2.5477in;height 1.9813in;depth 0pt;original-width 7.1676in;original-height 5.5642in;cropleft "0";croptop "1";cropright "1";cropbottom "0";filename '../current docs/Eaton project/figures/eps_plots/no network_policy_no_suc.eps';file-properties "NPEU";}}}%
+%BeginExpansion
+%EndExpansion
+\end{itemize}
+
+%TCIMACRO{\TeXButton{EndFrame}{\end{frame}}}%
+%BeginExpansion
+\end{frame}%
+%EndExpansion
+%TCIMACRO{\TeXButton{BeginFrame}{\begin{frame}}}%
+%BeginExpansion
+\begin{frame}%
+%EndExpansion
+
+\begin{center}
+\QTR{frametitle}{A 20\% reduction in search costs}%
+%TCIMACRO{%
+%\FRAME{ftbpF}{3.6902in}{2.7709in}{0pt}{}{}{search_dec_subplot.eps}{%
+%\special{language "Scientific Word";type "GRAPHIC";maintain-aspect-ratio TRUE;display "USEDEF";valid_file "F";width 3.6902in;height 2.7709in;depth 0pt;original-width 6.96in;original-height 5.2157in;cropleft "0";croptop "1";cropright "1";cropbottom "0";filename '../current docs/Eaton project/plots 6-1-13/search_dec_subplot.eps';file-properties "NPEU";}}}%
+%BeginExpansion
+%EndExpansion
+\end{center}
+
+%TCIMACRO{\TeXButton{EndFrame}{\end{frame}}}%
+%BeginExpansion
+\end{frame}%
+%EndExpansion
+%TCIMACRO{\TeXButton{BeginFrame}{\begin{frame}}}%
+%BeginExpansion
+\begin{frame}%
+%EndExpansion
+
+\QTR{frametitle}{A 20\% reduction in fixed costs}
+
+\begin{center}
+%TCIMACRO{%
+%\FRAME{ftbpF}{3.7386in}{2.8072in}{0pt}{}{}{cost_dec_subplot.eps}{%
+%\special{language "Scientific Word";type "GRAPHIC";maintain-aspect-ratio TRUE;display "USEDEF";valid_file "F";width 3.7386in;height 2.8072in;depth 0pt;original-width 6.96in;original-height 5.2157in;cropleft "0";croptop "1";cropright "1";cropbottom "0";filename '../current docs/Eaton project/plots 6-1-13/cost_dec_subplot.eps';file-properties "NPEU";}}}%
+%BeginExpansion
+%EndExpansion
+\end{center}
+
+%TCIMACRO{\TeXButton{EndFrame}{\end{frame}}}%
+%BeginExpansion
+\end{frame}%
+%EndExpansion
+%TCIMACRO{\TeXButton{BeginFrame}{\begin{frame}}}%
+%BeginExpansion
+\begin{frame}%
+%EndExpansion
+
+\QTR{frametitle}{A 20\% increase in foreign market size}
+
+\begin{center}
+%TCIMACRO{%
+%\FRAME{ftbpF}{3.7939in}{2.8487in}{0pt}{}{}{mac_bump_subplot.eps}{%
+%\special{language "Scientific Word";type "GRAPHIC";maintain-aspect-ratio TRUE;display "USEDEF";valid_file "F";width 3.7939in;height 2.8487in;depth 0pt;original-width 6.96in;original-height 5.2157in;cropleft "0";croptop "1";cropright "1";cropbottom "0";filename '../current docs/Eaton project/plots 6-1-13/mac_bump_subplot.eps';file-properties "NPEU";}}}%
+%BeginExpansion
+%EndExpansion
+\end{center}
+
+%TCIMACRO{\TeXButton{EndFrame}{\end{frame}}}%
+%BeginExpansion
+\end{frame}%
+%EndExpansion
+%TCIMACRO{\TeXButton{BeginFrame}{\begin{frame}}}%
+%BeginExpansion
+\begin{frame}%
+%EndExpansion
+
+\QTR{frametitle}{Eliminating reputation effects}
+
+%TCIMACRO{%
+%\FRAME{ftbpF}{3.8917in}{2.9222in}{0pt}{}{}{no_net_subplot.eps}{%
+%\special{language "Scientific Word";type "GRAPHIC";maintain-aspect-ratio TRUE;display "USEDEF";valid_file "F";width 3.8917in;height 2.9222in;depth 0pt;original-width 6.96in;original-height 5.2157in;cropleft "0";croptop "1";cropright "1";cropbottom "0";filename '../current docs/Eaton project/plots 6-1-13/no_net_subplot.eps';file-properties "NPEU";}}}%
+%BeginExpansion
+%EndExpansion
+
+%TCIMACRO{\TeXButton{EndFrame}{\end{frame}}}%
+%BeginExpansion
+\end{frame}%
+%EndExpansion
+%TCIMACRO{\TeXButton{BeginFrame}{\begin{frame}}}%
+%BeginExpansion
+\begin{frame}%
+%EndExpansion
+
+\QTR{frametitle}{Summary}
+
+\begin{itemize}
+\item Micro patterns of transactions and buyer-seller relationships through
+the lens of the model:
+
+\begin{itemize}
+\item Large volume of small scale exporters explained by large volume of
+inexperienced firms, searching at a low level.
+
+\item High exit rate reflects short lifespan of typical match, combined with
+low-level search and learning about product appeal.
+
+\item Small number of major exporters reflects combination of skewed
+distribution of product appeal and reputation effects.
+\end{itemize}
+
+\item Search costs, multi-period matches, learning, and reputation effects
+combine to provide an explanation for hysteresis in trade.
+
+\begin{itemize}
+\item Reputation effects appear to be particularly important.
+
+\item Since learning is mainly relevant for new, marginal players, probably
+doesn't have a big effect on short-run export dynamics.
+\end{itemize}
+\end{itemize}
+
+%TCIMACRO{\TeXButton{EndFrame}{\end{frame}}}%
+%BeginExpansion
+\end{frame}%
+%EndExpansion
+%TCIMACRO{\TeXButton{BeginFrame}{\begin{frame}}}%
+%BeginExpansion
+\begin{frame}%
+%EndExpansion
+
+\QTR{frametitle}{A Digression: hazards}
+
+\begin{itemize}
+\item From the perspective of time 0, let the probability that an event will
+occur before time $t$ be described by the exponential distribution:%
+\[
+F[t]=1-e^{-qt} 
+\]
+
+\item The likelihood of the event happening exactly at $t$ (the "hazard
+rate" at $t$) is then: 
+\[
+\frac{f(t)}{1-F(t)}=\frac{qe^{-qt}}{e^{-qt}}=q 
+\]
+
+\item This hazard rate doesn't depend upon $t.$
+\end{itemize}
+
+\label{appendix}
+
+%TCIMACRO{\TeXButton{EndFrame}{\end{frame}}}%
+%BeginExpansion
+\end{frame}%
+%EndExpansion
+%TCIMACRO{\TeXButton{BeginFrame}{\begin{frame}}}%
+%BeginExpansion
+\begin{frame}%
+%EndExpansion
+
+\QTR{frametitle}{Hazards}
+
+\begin{itemize}
+\item Suppose $k$ independent events occur with hazard $q_{1},q_{2},...q_{k}$%
+. The probability that none occur before $t$ is: 
+\[
+\dprod\limits_{j=1}^{k}\left( 1-F_{j}(t)\right) =e^{-t\Sigma _{j}q_{j}} 
+\]
+
+\item So by time $t$, at least one event occurs with probability $%
+1-e^{-t\Sigma _{j}q_{j}},$ and the likelihood that this happens exactly at $%
+t $ is%
+\[
+\frac{\Sigma _{j}q_{j}\left[ e^{-t\Sigma _{j}q_{j}}\right] }{e^{-t\Sigma
+_{j}q_{j}}}=\Sigma _{j}q_{j} 
+\]
+\end{itemize}
+
+%TCIMACRO{\TeXButton{EndFrame}{\end{frame}}}%
+%BeginExpansion
+\end{frame}%
+%EndExpansion
+%TCIMACRO{\TeXButton{BeginFrame}{\begin{frame}}}%
+%BeginExpansion
+\begin{frame}%
+%EndExpansion
+
+\label{pihat_derivation}
+
+\QTR{frametitle}{Relationship dynamics}
+
+\QTR{framesubtitle}{Markov jump processes}
+
+\begin{itemize}
+\item $x$ (market-wide) follows Markov jump process, hazard $q_{xx^{\prime
+}}^{X}$ of transiting from state $x$ to state $x^{\prime }.$
+
+\item $y$ (match-specific) follows Markov jump process, hazard $%
+q_{yy^{\prime }}^{Y}$ of transiting from state $y$ to state $y^{\prime }$.
+
+\item $\lambda _{x}^{X}=\sum_{x^{\prime }\neq x}q_{xx^{\prime }}^{X}$ is
+hazard of a change in market-wide state $x$
+
+\item $\lambda _{y}^{Y}=\sum_{y^{\prime }\neq y}q_{yy^{\prime }}^{Y}$ is
+hazard of a change in match-specific state $y$.
+
+\item $\lambda ^{b}$ is hazard of a new purchase order from existing client.
+
+\item $\tau _{b}$ time until the next change in state, which occurs with
+hazard $\lambda ^{b}+\lambda _{x}^{X}+\lambda _{y}^{Y}$
+\end{itemize}
+
+%TCIMACRO{\TeXButton{EndFrame}{\end{frame}}}%
+%BeginExpansion
+\end{frame}%
+%EndExpansion
+%TCIMACRO{\TeXButton{BeginFrame}{\begin{frame}}}%
+%BeginExpansion
+\begin{frame}%
+%EndExpansion
+
+\QTR{frametitle}{Relationship dynamics}
+
+\QTR{framesubtitle}{the continuation value}
+
+\begin{itemize}
+\item $\delta $ exogenous hazard of relationship death.
+
+\item $\rho $ seller's discount rate.
+\end{itemize}
+
+Continuation value of a business relationship in state $(x,y)$ for a type-$%
+\varphi $ exporter :%
+\begin{eqnarray*}
+\widehat{\pi }_{\varphi }(x,y) &=&\mathbf{E}_{\tau _{b}}\left[ e^{-(\rho
++\delta )\tau _{b}}\frac{1}{\lambda ^{b}+\lambda _{x}^{X}+\lambda _{y}^{Y}}%
+\right. \\
+&&\left. \cdot \left( \sum_{x^{\prime }\neq x}q_{xx^{\prime }}^{X}\widehat{%
+\pi }_{\varphi }(x^{\prime },y)+\sum_{y^{\prime }\neq y}q_{yy^{\prime }}^{Y}%
+\widehat{\pi }_{\varphi }(x,y^{\prime })+\lambda ^{b}\widetilde{\pi }%
+_{\varphi }(x,y)\right) \right] \\
+&=&\frac{1}{h}\left( \sum_{x^{\prime }\neq x}q_{xx^{\prime }}^{X}\widehat{%
+\pi }_{\varphi }(x^{\prime },y)+\sum_{y^{\prime }\neq y}q_{yy^{\prime }}^{Y}%
+\widehat{\pi }_{\varphi }(x,y^{\prime })+\lambda ^{b}\widetilde{\pi }%
+_{\varphi }(x,y)\right)
+\end{eqnarray*}%
+where%
+\[
+h=\rho +\delta +\lambda ^{b}+\lambda _{x}^{X}+\lambda _{y}^{Y} 
+\]
+
+%TCIMACRO{\TeXButton{EndFrame}{\end{frame}}}%
+%BeginExpansion
+\end{frame}%
+%EndExpansion
+%TCIMACRO{\TeXButton{BeginFrame}{\begin{frame}}}%
+%BeginExpansion
+\begin{frame}%
+%EndExpansion
+
+\label{Bayesian_details}
+
+\QTR{frametitle}{Learning about product appeal}
+
+\QTR{framesubtitle}{experience and expected success rates}
+
+\begin{itemize}
+\item Suppress market superscripts to reduce clutter.
+
+\item The \textbf{prior distribution} is:%
+\[
+r(\theta |\alpha ,\beta )=\frac{\Gamma (\alpha +\beta )}{\Gamma (\alpha
+)\Gamma (\beta )}\left( \theta \right) ^{\alpha -1}(1-\theta )^{\beta -1}, 
+\]
+
+\item \textbf{The likelihood:} Given $\theta ,$ and given that a seller has
+met $n$ potential buyers, the probability that $a$ of these buyers were
+willing to buy her product is binomially distributed: 
+\[
+q\left[ a|n,\theta \right] =\binom{n}{a}\left[ \theta \right] ^{a}\left[
+1-\theta ^{m}\right] ^{n-a}. 
+\]
+\end{itemize}
+
+%TCIMACRO{\TeXButton{EndFrame}{\end{frame}}}%
+%BeginExpansion
+\end{frame}%
+%EndExpansion
+%TCIMACRO{\TeXButton{BeginFrame}{\begin{frame}}}%
+%BeginExpansion
+\begin{frame}%
+%EndExpansion
+
+\QTR{frametitle}{Learning about product appeal}
+
+\QTR{framesubtitle}{experience and expected success rates}
+
+\begin{itemize}
+\item \textbf{The posterior} distribution for $\theta $:%
+\[
+p(\theta |a,n)\propto q\left[ a|n,\theta \right] \cdot r(\theta |\alpha
+,\beta ) 
+\]
+
+\item The expected success rate after $a$ successes in $n$ trials is thus: 
+\[
+\overline{\theta }(a,n)=E\left[ \theta |a,n\right] =\frac{a+\alpha }{%
+n+\alpha +\beta } 
+\]
+
+\item Sellers base their search intensity on this posterior mean$.$
+\end{itemize}
+
+%TCIMACRO{\TeXButton{EndFrame}{\end{frame}}}%
+%BeginExpansion
+\end{frame}%
+%EndExpansion
+%TCIMACRO{\TeXButton{BeginFrame}{\begin{frame}}}%
+%BeginExpansion
+\begin{frame}%
+%EndExpansion
+
+\label{optimal_search}
+
+\QTR{frametitle}{Searching for buyers}
+
+\QTR{framesubtitle}{the value of search}
+
+The value of continued search for a type-$\varphi $ firm with $a$ successes
+in $n$ meetings is:
+
+\begin{eqnarray*}
+&&V_{\varphi }(a,n,x)= \\
+&&\max_{s}\mathbf{E}_{\tau _{s}}\left[ -c(s,a)\int_{0}^{\tau _{s}}e^{-\rho
+t}dt+\frac{e^{-\rho \tau _{s}}}{s+\lambda _{x}^{X}}\cdot \left(
+\sum_{x^{\prime }\neq x}q_{xx^{\prime }}^{X}V_{\varphi ,}(a,n,x^{\prime
+})\right. \right. \\
+&&\left. \left. 
+\begin{array}{c}
+\; \\ 
+\;%
+\end{array}%
++s\left[ \overline{\theta }_{a,n}(\widetilde{\pi }_{\varphi }(x)+V_{\varphi
+}(a+1,n+1,x)+(1-\overline{\theta }_{a,n})V_{\varphi }(a,n+1,x)\right]
+\right) \right]
+\end{eqnarray*}
+
+where:
+
+\begin{itemize}
+\item $\lambda _{x}^{X}=\sum_{x^{\prime }\neq x}q_{xx^{\prime }}^{X}$ is the
+hazard of any change in the market-wide state $x.$
+
+\item $\tau _{s}$ is the random time until the next search event, which
+occurs with hazard $s+\lambda _{x}^{X}$.
+\end{itemize}
+
+%TCIMACRO{\TeXButton{EndFrame}{\end{frame}}}%
+%BeginExpansion
+\end{frame}%
+%EndExpansion
+%TCIMACRO{\TeXButton{BeginFrame}{\begin{frame}}}%
+%BeginExpansion
+\begin{frame}%
+%EndExpansion
+
+\QTR{frametitle}{Searching for buyers}
+
+\QTR{framesubtitle}{the value of search}
+
+Taking expectations over $\tau _{s}$ yields:%
+\begin{eqnarray*}
+&&V_{\varphi }(a,n,x) \\
+&=&\max_{s}\frac{1}{\rho +s+\lambda _{x}^{X}}\left[ -c(s,a)+\sum_{x^{\prime
+}\neq x}q_{xx^{\prime }}^{X}V_{\varphi ,}(a,n,x^{\prime })\right. \\
+&&\left. 
+\begin{array}{c}
+\; \\ 
+\;%
+\end{array}%
++s\left\{ \overline{\theta }_{a,n}\left[ \widetilde{\pi }_{\varphi
+}(x)+V_{\varphi }(a+1,n+1,x)\right] +(1-\overline{\theta }_{a,n})V_{\varphi
+}(a,n+1,x)\right\} \right]
+\end{eqnarray*}
+
+The first-order condition is thus:%
+\begin{eqnarray*}
+c_{s}(s^{\ast },a) &=&\overline{\theta }_{a,n}(\widetilde{\pi }_{\varphi
+}(x)+V_{\varphi }(a+1,n+1,x)) \\
+&&+(1-\overline{\theta }_{a,n})V_{\varphi }(a,n+1,x)-V_{\varphi }(a,n,x).
+\end{eqnarray*}
+
+%TCIMACRO{\TeXButton{EndFrame}{\end{frame}}}%
+%BeginExpansion
+\end{frame}%
+%EndExpansion
+%TCIMACRO{\TeXButton{BeginFrame}{\begin{frame}}}%
+%BeginExpansion
+\begin{frame}%
+%EndExpansion
+
+\QTR{frametitle}{Searching for buyers}
+
+\QTR{framesubtitle}{when the truth is known: the domestic market}
+
+\begin{itemize}
+\item In the domestic market the reward to search depends on $a$ and $n$
+only through network effects.
+
+\item The value of search at home is thus simply:%
+\[
+V_{\varphi }(x)=\max_{s}\frac{1}{\rho +s+\lambda _{x}^{X}}\left[
+-c(s,a)+\sum_{x^{\prime }\neq x}q_{xx^{\prime }}^{X}V_{\varphi }(x^{\prime
+})+s\theta _{j}\widetilde{\pi }_{\varphi }(x)\right] 
+\]
+
+\item The associated first-order condition is:%
+\[
+c_{s}(s^{\ast },a)=\theta _{j}\widetilde{\pi }_{\varphi }(x). 
+\]
+\end{itemize}
+
+%TCIMACRO{\TeXButton{EndFrame}{\end{frame}}}%
+%BeginExpansion
+\end{frame}%
+%EndExpansion
+
+\end{document}
