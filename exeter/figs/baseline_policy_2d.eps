@@ -1,0 +1,411 @@
+%!PS-Adobe-2.0 EPSF-1.2
+%%Creator: MATLAB, The MathWorks, Inc. Version 7.14.0.739 (R2012a). Operating System: Linux 2.6.18-348.12.1.el5 #1 SMP Mon Jul 1 17:54:12 EDT 2013 x86_64.
+%%Title: results/baseline_policy_2d.eps
+%%CreationDate: 11/05/2014  11:23:41
+%%DocumentNeededFonts: Helvetica
+%%DocumentProcessColors: Cyan Magenta Yellow Black
+%%Extensions: CMYK
+%%Pages: 1
+%%BoundingBox:    52   199   548   591
+%%EndComments
+
+%%BeginProlog
+% MathWorks dictionary
+/MathWorks 160 dict begin
+% definition operators
+/bdef {bind def} bind def
+/ldef {load def} bind def
+/xdef {exch def} bdef
+/xstore {exch store} bdef
+% operator abbreviations
+/c  /clip ldef
+/cc /concat ldef
+/cp /closepath ldef
+/gr /grestore ldef
+/gs /gsave ldef
+/mt /moveto ldef
+/np /newpath ldef
+/cm /currentmatrix ldef
+/sm /setmatrix ldef
+/rm /rmoveto ldef
+/rl /rlineto ldef
+/s {show newpath} bdef
+/sc {setcmykcolor} bdef
+/sr /setrgbcolor ldef
+/sg /setgray ldef
+/w /setlinewidth ldef
+/j /setlinejoin ldef
+/cap /setlinecap ldef
+/rc {rectclip} bdef
+/rf {rectfill} bdef
+% page state control
+/pgsv () def
+/bpage {/pgsv save def} bdef
+/epage {pgsv restore} bdef
+/bplot /gsave ldef
+/eplot {stroke grestore} bdef
+% orientation switch
+/portraitMode 0 def /landscapeMode 1 def /rotateMode 2 def
+% coordinate system mappings
+/dpi2point 0 def
+% font control
+/FontSize 0 def
+/FMS {/FontSize xstore findfont [FontSize 0 0 FontSize neg 0 0]
+  makefont setfont} bdef
+/reencode {exch dup where {pop load} {pop StandardEncoding} ifelse
+  exch dup 3 1 roll findfont dup length dict begin
+  { 1 index /FID ne {def}{pop pop} ifelse } forall
+  /Encoding exch def currentdict end definefont pop} bdef
+/isroman {findfont /CharStrings get /Agrave known} bdef
+/FMSR {3 1 roll 1 index dup isroman {reencode} {pop pop} ifelse
+  exch FMS} bdef
+/csm {1 dpi2point div -1 dpi2point div scale neg translate
+ dup landscapeMode eq {pop -90 rotate}
+  {rotateMode eq {90 rotate} if} ifelse} bdef
+% line types: solid, dotted, dashed, dotdash
+/SO { [] 0 setdash } bdef
+/DO { [.5 dpi2point mul 4 dpi2point mul] 0 setdash } bdef
+/DA { [6 dpi2point mul] 0 setdash } bdef
+/DD { [.5 dpi2point mul 4 dpi2point mul 6 dpi2point mul 4
+  dpi2point mul] 0 setdash } bdef
+% macros for lines and objects
+/L {lineto stroke} bdef
+/MP {3 1 roll moveto 1 sub {rlineto} repeat} bdef
+/AP {{rlineto} repeat} bdef
+/PDlw -1 def
+/W {/PDlw currentlinewidth def setlinewidth} def
+/PP {closepath eofill} bdef
+/DP {closepath stroke} bdef
+/MR {4 -2 roll moveto dup  0 exch rlineto exch 0 rlineto
+  neg 0 exch rlineto closepath} bdef
+/FR {MR stroke} bdef
+/PR {MR fill} bdef
+/L1i {{currentfile picstr readhexstring pop} image} bdef
+/tMatrix matrix def
+/MakeOval {newpath tMatrix currentmatrix pop translate scale
+0 0 1 0 360 arc tMatrix setmatrix} bdef
+/FO {MakeOval stroke} bdef
+/PO {MakeOval fill} bdef
+/PD {currentlinewidth 2 div 0 360 arc fill
+   PDlw -1 eq not {PDlw w /PDlw -1 def} if} def
+/FA {newpath tMatrix currentmatrix pop translate scale
+  0 0 1 5 -2 roll arc tMatrix setmatrix stroke} bdef
+/PA {newpath tMatrix currentmatrix pop	translate 0 0 moveto scale
+  0 0 1 5 -2 roll arc closepath tMatrix setmatrix fill} bdef
+/FAn {newpath tMatrix currentmatrix pop translate scale
+  0 0 1 5 -2 roll arcn tMatrix setmatrix stroke} bdef
+/PAn {newpath tMatrix currentmatrix pop translate 0 0 moveto scale
+  0 0 1 5 -2 roll arcn closepath tMatrix setmatrix fill} bdef
+/vradius 0 def /hradius 0 def /lry 0 def
+/lrx 0 def /uly 0 def /ulx 0 def /rad 0 def
+/MRR {/vradius xdef /hradius xdef /lry xdef /lrx xdef /uly xdef
+  /ulx xdef newpath tMatrix currentmatrix pop ulx hradius add uly
+  vradius add translate hradius vradius scale 0 0 1 180 270 arc 
+  tMatrix setmatrix lrx hradius sub uly vradius add translate
+  hradius vradius scale 0 0 1 270 360 arc tMatrix setmatrix
+  lrx hradius sub lry vradius sub translate hradius vradius scale
+  0 0 1 0 90 arc tMatrix setmatrix ulx hradius add lry vradius sub
+  translate hradius vradius scale 0 0 1 90 180 arc tMatrix setmatrix
+  closepath} bdef
+/FRR {MRR stroke } bdef
+/PRR {MRR fill } bdef
+/MlrRR {/lry xdef /lrx xdef /uly xdef /ulx xdef /rad lry uly sub 2 div def
+  newpath tMatrix currentmatrix pop ulx rad add uly rad add translate
+  rad rad scale 0 0 1 90 270 arc tMatrix setmatrix lrx rad sub lry rad
+  sub translate rad rad scale 0 0 1 270 90 arc tMatrix setmatrix
+  closepath} bdef
+/FlrRR {MlrRR stroke } bdef
+/PlrRR {MlrRR fill } bdef
+/MtbRR {/lry xdef /lrx xdef /uly xdef /ulx xdef /rad lrx ulx sub 2 div def
+  newpath tMatrix currentmatrix pop ulx rad add uly rad add translate
+  rad rad scale 0 0 1 180 360 arc tMatrix setmatrix lrx rad sub lry rad
+  sub translate rad rad scale 0 0 1 0 180 arc tMatrix setmatrix
+  closepath} bdef
+/FtbRR {MtbRR stroke } bdef
+/PtbRR {MtbRR fill } bdef
+/stri 6 array def /dtri 6 array def
+/smat 6 array def /dmat 6 array def
+/tmat1 6 array def /tmat2 6 array def /dif 3 array def
+/asub {/ind2 exch def /ind1 exch def dup dup
+  ind1 get exch ind2 get sub exch } bdef
+/tri_to_matrix {
+  2 0 asub 3 1 asub 4 0 asub 5 1 asub
+  dup 0 get exch 1 get 7 -1 roll astore } bdef
+/compute_transform {
+  dmat dtri tri_to_matrix tmat1 invertmatrix 
+  smat stri tri_to_matrix tmat2 concatmatrix } bdef
+/ds {stri astore pop} bdef
+/dt {dtri astore pop} bdef
+/db {2 copy /cols xdef /rows xdef mul dup 3 mul string
+  currentfile exch readhexstring pop
+  dup 0 3 index getinterval /rbmap xdef
+  dup 2 index dup getinterval /gbmap xdef
+  1 index dup 2 mul exch getinterval /bbmap xdef pop pop}bdef
+/it {gs np dtri aload pop moveto lineto lineto cp c
+  cols rows 8 compute_transform 
+  rbmap gbmap bbmap true 3 colorimage gr}bdef
+/il {newpath moveto lineto stroke}bdef
+currentdict end def
+%%EndProlog
+
+%%BeginSetup
+MathWorks begin
+
+0 cap
+
+end
+%%EndSetup
+
+%%Page: 1 1
+%%BeginPageSetup
+%%PageBoundingBox:    52   199   548   591
+MathWorks begin
+bpage
+%%EndPageSetup
+
+%%BeginObject: obj1
+bplot
+
+/dpi2point 12 def
+portraitMode 0216 7344 csm
+
+  413   247  5958  4708 MR c np
+86 dict begin %Colortable dictionary
+/c0 { 0.000000 0.000000 0.000000 sr} bdef
+/c1 { 1.000000 1.000000 1.000000 sr} bdef
+/c2 { 0.900000 0.000000 0.000000 sr} bdef
+/c3 { 0.000000 0.820000 0.000000 sr} bdef
+/c4 { 0.000000 0.000000 0.800000 sr} bdef
+/c5 { 0.910000 0.820000 0.320000 sr} bdef
+/c6 { 1.000000 0.260000 0.820000 sr} bdef
+/c7 { 0.000000 0.820000 0.820000 sr} bdef
+c0
+1 j
+1 sg
+   0    0 6913 5186 PR
+6 w
+0 4226 5356 0 0 -4226 899 4615 4 MP
+PP
+-5356 0 0 4226 5356 0 0 -4226 899 4615 5 MP stroke
+4 w
+DO
+SO
+6 w
+0 sg
+ 899 4615 mt 6255 4615 L
+ 899  389 mt 6255  389 L
+ 899 4615 mt  899  389 L
+6255 4615 mt 6255  389 L
+ 899 4615 mt 6255 4615 L
+ 899 4615 mt  899  389 L
+1113 4615 mt 1113 4561 L
+1113  389 mt 1113  442 L
+%%IncludeResource: font Helvetica
+/Helvetica /ISOLatin1Encoding 120 FMSR
+
+1080 4760 mt 
+(0) s
+1755 4615 mt 1755 4561 L
+1755  389 mt 1755  442 L
+1722 4760 mt 
+(3) s
+2398 4615 mt 2398 4561 L
+2398  389 mt 2398  442 L
+2365 4760 mt 
+(6) s
+3041 4615 mt 3041 4561 L
+3041  389 mt 3041  442 L
+3008 4760 mt 
+(9) s
+3684 4615 mt 3684 4561 L
+3684  389 mt 3684  442 L
+3618 4760 mt 
+(12) s
+4326 4615 mt 4326 4561 L
+4326  389 mt 4326  442 L
+4260 4760 mt 
+(15) s
+4969 4615 mt 4969 4561 L
+4969  389 mt 4969  442 L
+4903 4760 mt 
+(18) s
+5612 4615 mt 5612 4561 L
+5612  389 mt 5612  442 L
+5546 4760 mt 
+(21) s
+6255 4615 mt 6255 4561 L
+6255  389 mt 6255  442 L
+6189 4760 mt 
+(24) s
+ 899 4615 mt  952 4615 L
+6255 4615 mt 6201 4615 L
+ 798 4659 mt 
+(0) s
+ 899 4011 mt  952 4011 L
+6255 4011 mt 6201 4011 L
+ 631 4055 mt 
+(0.02) s
+ 899 3407 mt  952 3407 L
+6255 3407 mt 6201 3407 L
+ 631 3451 mt 
+(0.04) s
+ 899 2803 mt  952 2803 L
+6255 2803 mt 6201 2803 L
+ 631 2847 mt 
+(0.06) s
+ 899 2200 mt  952 2200 L
+6255 2200 mt 6201 2200 L
+ 631 2244 mt 
+(0.08) s
+ 899 1596 mt  952 1596 L
+6255 1596 mt 6201 1596 L
+ 698 1640 mt 
+(0.1) s
+ 899  992 mt  952  992 L
+6255  992 mt 6201  992 L
+ 631 1036 mt 
+(0.12) s
+ 899  389 mt  952  389 L
+6255  389 mt 6201  389 L
+ 631  433 mt 
+(0.14) s
+ 899 4615 mt 6255 4615 L
+ 899  389 mt 6255  389 L
+ 899 4615 mt  899  389 L
+6255 4615 mt 6255  389 L
+gs 899 389 5357 4227 MR c np
+/c8 { 0.000000 0.000000 1.000000 sr} bdef
+c8
+215 -27 214 -29 214 -31 214 -32 215 -36 214 -38 214 -42 214 -45 
+215 -50 214 -56 214 -63 214 -70 215 -82 214 -95 214 -114 214 -140 
+215 -179 214 -241 214 -351 214 -597 1113 2819 21 MP stroke
+DA
+/c9 { 1.000000 0.000000 0.000000 sr} bdef
+c9
+214 -53 214 -57 214 -63 215 -70 214 -77 214 -87 214 -99 215 -113 
+214 -131 214 -157 214 -189 215 -238 214 -313 214 -442 214 -714 1113 3773 16 MP stroke
+DD
+/c10 { 0.000000 1.000000 0.000000 sr} bdef
+c10
+214 -101 214 -113 215 -130 214 -149 214 -177 214 -212 215 -263 214 -341 
+214 -472 214 -749 1113 4306 11 MP stroke
+SO
+gr
+
+c10
+gs 1040 2498 1218 2191 MR c np
+0 sg
+1077 4615 mt 1149 4615 L
+1113 4579 mt 1113 4651 L
+1291 3911 mt 1363 3911 L
+1327 3875 mt 1327 3947 L
+1505 3424 mt 1577 3424 L
+1541 3388 mt 1541 3460 L
+1719 3070 mt 1791 3070 L
+1755 3034 mt 1755 3106 L
+1934 2794 mt 2006 2794 L
+1970 2758 mt 1970 2830 L
+2148 2571 mt 2220 2571 L
+2184 2535 mt 2184 2607 L
+1088 4590 mt 1138 4640 L
+1138 4590 mt 1088 4640 L
+1302 3886 mt 1352 3936 L
+1352 3886 mt 1302 3936 L
+1516 3399 mt 1566 3449 L
+1566 3399 mt 1516 3449 L
+1730 3045 mt 1780 3095 L
+1780 3045 mt 1730 3095 L
+1945 2769 mt 1995 2819 L
+1995 2769 mt 1945 2819 L
+2159 2546 mt 2209 2596 L
+2209 2546 mt 2159 2596 L
+gr
+
+0 sg
+gs 899 389 5357 4227 MR c np
+gr
+
+3326 4903 mt 
+(succeses) s
+ 549 2920 mt  -90 rotate
+(search intensity) s
+90 rotate
+ 882 4658 mt 
+( ) s
+6239  431 mt 
+( ) s
+1 sg
+0 626 1055 0 0 -626 5141 4556 4 MP
+PP
+-1055 0 0 626 1055 0 0 -626 5141 4556 5 MP stroke
+4 w
+DO
+SO
+6 w
+0 sg
+5141 4556 mt 6196 4556 L
+5141 3930 mt 6196 3930 L
+5141 4556 mt 5141 3930 L
+6196 4556 mt 6196 3930 L
+5141 4556 mt 6196 4556 L
+5141 4556 mt 5141 3930 L
+5141 4556 mt 6196 4556 L
+5141 3930 mt 6196 3930 L
+5141 4556 mt 5141 3930 L
+6196 4556 mt 6196 3930 L
+5599 4062 mt 
+(0 failures) s
+gs 5141 3930 1056 627 MR c np
+c8
+352 0 5211 4020 2 MP stroke
+gr
+
+c8
+0 sg
+5599 4211 mt 
+(5 failures) s
+gs 5141 3930 1056 627 MR c np
+DA
+c9
+352 0 5211 4168 2 MP stroke
+SO
+gr
+
+c9
+0 sg
+5599 4360 mt 
+(10 failures) s
+gs 5141 3930 1056 627 MR c np
+DD
+c10
+352 0 5211 4317 2 MP stroke
+SO
+gr
+
+c10
+0 sg
+5599 4509 mt 
+(15 failures) s
+gs 5141 3930 1056 627 MR c np
+gs 5314 4392 147 147 MR c np
+5351 4465 mt 5423 4465 L
+5387 4429 mt 5387 4501 L
+5362 4440 mt 5412 4490 L
+5412 4440 mt 5362 4490 L
+gr
+
+gr
+
+
+end %%Color Dict
+
+eplot
+%%EndObject
+
+epage
+end
+
+showpage
+
+%%Trailer
+%%EOF
