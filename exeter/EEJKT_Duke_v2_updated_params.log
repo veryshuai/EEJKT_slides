@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.7.23)  4 NOV 2014 14:48
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.4.24)  7 NOV 2014 00:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -884,7 +884,7 @@ Dictionary: translator-theorem-dictionary, Language: English
 )
 LaTeX Info: Redefining \includegraphics on input line 28.
 
-No file EEJKT_Duke_v2_updated_params.nav.
+(./EEJKT_Duke_v2_updated_params.nav)
 
 Package hyperref Warning: Option `pdfauthor' has already been used,
 (hyperref)                setting the option has no effect on input line 36.
@@ -1388,82 +1388,245 @@ Overfull \hbox (88.98892pt too wide) has occurred while \output is active
 
 [35
 
-])
-Runaway argument?
-\par \QTR {frametitle}{Data versus simulated statistics} \par \begin \ETC.
-! File ended while scanning use of \frame.
-<inserted text> 
-                \par 
-<*> EEJKT_Duke_v2_updated_params.tex
-                                    
-? 
+]
+Overfull \hbox (88.98892pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
 
-*
-(Please type a command or say `\end')
-*
-(Please type a command or say `\end')
-*x
+[36
 
-*
-(Please type a command or say `\end')
-*
-(Please type a command or say `\end')
-*
-(Please type a command or say `\end')
-*
-(Please type a command or say `\end')
-*
-(Please type a command or say `\end')
-*
-(Please type a command or say `\end')
-*
-(Please type a command or say `\end')
-*
-(Please type a command or say `\end')
-*x
+]
+Overfull \hbox (88.98892pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
 
-*
-(Please type a command or say `\end')
-*
-(Please type a command or say `\end')
-*
-(Please type a command or say `\end')
-*x
+[37
 
-*
-(Please type a command or say `\end')
-*
-(Please type a command or say `\end')
-*x
+]
 
-*
-(Please type a command or say `\end')
-*x
+LaTeX Font Warning: Command \small invalid in math mode on input line 1259.
 
-*
-(Please type a command or say `\end')
-*
-(Please type a command or say `\end')
-*/end
 
-*\end
+LaTeX Font Warning: Command \small invalid in math mode on input line 1259.
 
-*\end
-! TeX capacity exceeded, sorry [input stack size=5000].
-\end #1->\csname end#1
-                      \endcsname \@checkend {#1}\expandafter \endgroup \if@e...
-<*> \end
-        
-If you really absolutely need more capacity,
-you can ask a wizard to enlarge me.
 
- 
+LaTeX Font Warning: Command \small invalid in math mode on input line 1259.
+
+
+Overfull \hbox (88.98892pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[38
+
+]
+Overfull \hbox (88.98892pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[39
+
+]
+Overfull \hbox (88.98892pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[40
+
+]
+Overfull \hbox (88.98892pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[41
+
+]
+Overfull \hbox (88.98892pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[42
+
+]
+Overfull \hbox (88.98892pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[43
+
+]
+Overfull \hbox (88.98892pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[44
+
+]
+Overfull \hbox (88.98892pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[45
+
+]
+Overfull \hbox (88.98892pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[46
+
+]
+Overfull \hbox (88.98892pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[47
+
+]
+Overfull \hbox (88.98892pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[48
+
+]
+Overfull \hbox (88.98892pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[49
+
+]
+Overfull \hbox (88.98892pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[50
+
+]
+Overfull \hbox (88.98892pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[51
+
+]
+Overfull \hbox (88.98892pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[52
+
+]
+Overfull \hbox (1.19943pt too wide) in alignment at lines 1669--1669
+ [][][] []
+ []
+
+
+Overfull \hbox (88.98892pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[53
+
+]
+Overfull \hbox (88.98892pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[54
+
+]
+Overfull \hbox (88.98892pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[55
+
+]
+Overfull \hbox (16.12032pt too wide) in alignment at lines 1775--1775
+ [][][] []
+ []
+
+
+Overfull \hbox (88.98892pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[56
+
+]
+Overfull \hbox (26.17302pt too wide) in alignment at lines 1810--1810
+ [][][] []
+ []
+
+
+Overfull \hbox (88.98892pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[57
+
+]
+Overfull \hbox (88.98892pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[58
+
+]
+\tf@nav=\write6
+\openout6 = `EEJKT_Duke_v2_updated_params.nav'.
+
+\tf@toc=\write7
+\openout7 = `EEJKT_Duke_v2_updated_params.toc'.
+
+\tf@snm=\write8
+\openout8 = `EEJKT_Duke_v2_updated_params.snm'.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1843.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1843.
+ (./EEJKT_Duke_v2_updated_params.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1843.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1843.
+
+Package rerunfilecheck Info: File `EEJKT_Duke_v2_updated_params.out' has not ch
+anged.
+(rerunfilecheck)             Checksum: 8E47AD6508BFFB56F7216895B6AEE6D5;145.
+
+
+LaTeX Font Warning: Size substitutions with differences
+(Font)              up to 1.0pt have occurred.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1843.
+ ) 
 Here is how much of TeX's memory you used:
- 16291 strings out of 493304
- 300651 string characters out of 6139871
- 382875 words of memory out of 5000000
- 19242 multiletter control sequences out of 15000+600000
+ 16469 strings out of 493304
+ 302280 string characters out of 6139871
+ 384557 words of memory out of 5000000
+ 19368 multiletter control sequences out of 15000+600000
  34499 words of font info for 107 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 5000i,18n,5000p,437b,557s stack positions out of 5000i,500n,10000p,200000b,80000s
-!  ==> Fatal error occurred, no output PDF file produced!
+ 49i,18n,57p,437b,557s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmss10.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmss12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmss8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmss9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mssbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi
+10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb
+></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr
+/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share
+/texlive/texmf-dist/fonts/type1/public/mathpazo/fplmr.pfb></usr/share/texlive/t
+exmf-dist/fonts/type1/public/mathpazo/fplmri.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/urw/palatino/uplr8a.pfb>
+Output written on EEJKT_Duke_v2_updated_params.pdf (58 pages, 291125 bytes).
+PDF statistics:
+ 1668 PDF objects out of 1728 (max. 8388607)
+ 1564 compressed objects within 16 object streams
+ 123 named destinations out of 1000 (max. 500000)
+ 93 words of extra memory for PDF output out of 10000 (max. 10000000)
+

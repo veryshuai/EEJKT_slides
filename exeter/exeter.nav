@@ -123,8 +123,14 @@
 \headcommand {\beamer@framepages {61}{61}}
 \headcommand {\slideentry {1}{1}{59}{62/62}{Slides - Beamer}{0}}
 \headcommand {\beamer@framepages {62}{62}}
-\headcommand {\beamer@partpages {1}{62}}
-\headcommand {\beamer@subsectionpages {2}{62}}
-\headcommand {\beamer@sectionpages {2}{62}}
-\headcommand {\beamer@documentpages {62}}
-\headcommand {\def \inserttotalframenumber {60}}
+\headcommand {\slideentry {1}{1}{60}{63/63}{Slides - Beamer}{0}}
+\headcommand {\beamer@framepages {63}{63}}
+\headcommand {\slideentry {1}{1}{61}{64/64}{Slides - Beamer}{0}}
+\headcommand {\beamer@framepages {64}{64}}
+\headcommand {\slideentry {1}{1}{62}{65/65}{Slides - Beamer}{0}}
+\headcommand {\beamer@framepages {65}{65}}
+\headcommand {\beamer@partpages {1}{65}}
+\headcommand {\beamer@subsectionpages {2}{65}}
+\headcommand {\beamer@sectionpages {2}{65}}
+\headcommand {\beamer@documentpages {65}}
+\headcommand {\def \inserttotalframenumber {63}}

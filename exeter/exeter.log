@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.4.24)  5 NOV 2014 19:53
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.4.24)  7 NOV 2014 00:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -672,6 +672,18 @@ Package: mathpazo 2005/04/12 PSNFSS-v9.2a Palatino w/ Pazo Math (D.Puga, WaS)
 Package: multimedia 2012/05/02 ver 0.02
 \mm@movie=\count153
 )
+(/usr/share/texlive/texmf-dist/tex/latex/rotating/rotating.sty
+Package: rotating 2009/03/28 v2.16a rotated objects in LaTeX
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\c@r@tfl@t=\count154
+\rotFPtop=\skip57
+\rotFPbot=\skip58
+\rot@float@box=\box53
+\rot@mess@toks=\toks40
+)
 (/usr/share/texmf/tex/latex/beamer/base/themes/theme/beamerthemeMadrid.sty
 Package: beamerthemeMadrid 2010/06/17  (rcs-revision d02a7cf4d8ae)
 
@@ -693,13 +705,13 @@ TCILATEX Macros for Scientific Word and Scientific WorkPlace 5.5 <06 Oct 2005>.
 
 NOTICE: This macro file is NOT proprietary and may be freely copied and distrib
 uted.
-\msipdfoutput=\count154
-\@hour=\count155
-\@minute=\count156
-\GRAPHICSTYPE=\count157
-\@msidraft=\count158
-\dispkind=\count159
-\c@chapter=\count160
+\msipdfoutput=\count155
+\@hour=\count156
+\@minute=\count157
+\GRAPHICSTYPE=\count158
+\@msidraft=\count159
+\dispkind=\count160
+\c@chapter=\count161
 \theight=\dimen185
 LaTeX Info: Redefining \rm on input line 653.
 LaTeX Info: Redefining \sf on input line 654.
@@ -708,30 +720,30 @@ LaTeX Info: Redefining \bf on input line 656.
 LaTeX Info: Redefining \it on input line 657.
 LaTeX Info: Redefining \sl on input line 658.
 LaTeX Info: Redefining \sc on input line 659.
-\c@axiom=\count161
-\c@remark=\count162
-\c@exercise=\count163
-\c@equationnumber=\count164
-\temptoksa=\toks40
-\temptoksb=\toks41
-\temptoksc=\toks42
+\c@axiom=\count162
+\c@remark=\count163
+\c@exercise=\count164
+\c@equationnumber=\count165
+\temptoksa=\toks41
+\temptoksb=\toks42
+\temptoksc=\toks43
 ) (./exeter.aux)
 \openout1 = `exeter.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -769,17 +781,17 @@ LaTeX Font Info:    ... okay on input line 28.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count165
+\scratchcounter=\count166
 \scratchdimen=\dimen186
-\scratchbox=\box53
-\nofMPsegments=\count166
-\nofMParguments=\count167
-\everyMPshowfont=\toks43
-\MPscratchCnt=\count168
+\scratchbox=\box54
+\nofMPsegments=\count167
+\nofMParguments=\count168
+\everyMPshowfont=\toks44
+\MPscratchCnt=\count169
 \MPscratchDim=\dimen187
-\MPnumerator=\count169
-\makeMPintoPDFobject=\count170
-\everyMPtoPDFconversion=\toks44
+\MPnumerator=\count170
+\makeMPintoPDFobject=\count171
+\everyMPtoPDFconversion=\toks45
 ) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
 
@@ -796,8 +808,8 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 ABD: EveryShipout initializing macros
-\AtBeginShipoutBox=\box54
-Package hyperref Info: Link coloring OFF on input line 28.
+\AtBeginShipoutBox=\box55
+Package hyperref Info: Link coloring OFF on input line 29.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -805,58 +817,58 @@ Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count171
+\c@section@level=\count172
 )
-LaTeX Info: Redefining \ref on input line 28.
-LaTeX Info: Redefining \pageref on input line 28.
-LaTeX Info: Redefining \nameref on input line 28.
+LaTeX Info: Redefining \ref on input line 29.
+LaTeX Info: Redefining \pageref on input line 29.
+LaTeX Info: Redefining \nameref on input line 29.
 
 (./exeter.out) (./exeter.out)
 \@outlinefile=\write5
 \openout5 = `exeter.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/ppl/m/n --> OT1/cmss/m/n on input line 28.
+(Font)                  OT1/ppl/m/n --> OT1/cmss/m/n on input line 29.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/ppl/b/n --> OT1/cmss/bx/n on input line 28.
+(Font)                  OT1/ppl/b/n --> OT1/cmss/bx/n on input line 29.
 \symnumbers=\mathgroup7
 \sympureletters=\mathgroup8
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/ppl/m/n on input line 28.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 28.
+(Font)                  OT1/cmss/m/n --> OT1/ppl/m/n on input line 29.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 29.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/zplm/b/n --> OT1/cmss/bx/n on input line 28.
+(Font)                  OT1/zplm/b/n --> OT1/cmss/bx/n on input line 29.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/zplm/b/n --> OT1/cmss/bx/n on input line 28.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 28.
+(Font)                  OT1/zplm/b/n --> OT1/cmss/bx/n on input line 29.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 29.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 28.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 29.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/cmss/m/n on input line 28.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 28.
+(Font)                  OT1/cmss/bx/n --> OT1/cmss/m/n on input line 29.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 29.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/ppl/m/it --> OT1/cmss/m/it on input line 28.
+(Font)                  OT1/ppl/m/it --> OT1/cmss/m/it on input line 29.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/ppl/b/it --> OT1/cmss/m/it on input line 28.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 28.
+(Font)                  OT1/ppl/b/it --> OT1/cmss/m/it on input line 29.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 29.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 28.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 29.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 28.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 29.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 28.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 29.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  OT1/cmss/m/it --> OT1/cmss/bx/it on input line 28.
+(Font)                  OT1/cmss/m/it --> OT1/cmss/bx/it on input line 29.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/ppl/bx/n on input line 28.
+(Font)                  OT1/cmss/bx/n --> OT1/ppl/bx/n on input line 29.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/cmss/bx/n on input line 28.
+(Font)                  OT1/cmss/bx/n --> OT1/cmss/bx/n on input line 29.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 28.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 29.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmss/m/it --> OT1/cmss/bx/it on input line 28.
+(Font)                  OT1/cmss/m/it --> OT1/cmss/bx/it on input line 29.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/bx/n on input line 28.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/bx/n on input line 29.
 
 (/usr/share/texmf/tex/latex/beamer/base/translator/dicts/translator-basic-dicti
 onary/translator-basic-dictionary-English.dict
@@ -882,55 +894,55 @@ Dictionary: translator-numbers-dictionary, Language: English
 tionary/translator-theorem-dictionary-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 )
-LaTeX Info: Redefining \includegraphics on input line 28.
+LaTeX Info: Redefining \includegraphics on input line 29.
  (./exeter.nav)
 
 Package hyperref Warning: Option `pdfauthor' has already been used,
-(hyperref)                setting the option has no effect on input line 36.
+(hyperref)                setting the option has no effect on input line 37.
 
-LaTeX Font Info:    Try loading font information for OML+zplm on input line 40.
+LaTeX Font Info:    Try loading font information for OML+zplm on input line 41.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omlzplm.fd
 File: omlzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OML/zplm.
 )
-LaTeX Font Info:    Try loading font information for OMS+zplm on input line 40.
+LaTeX Font Info:    Try loading font information for OMS+zplm on input line 41.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omszplm.fd
 File: omszplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMS/zplm.
 )
-LaTeX Font Info:    Try loading font information for OMX+zplm on input line 40.
+LaTeX Font Info:    Try loading font information for OMX+zplm on input line 41.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omxzplm.fd
 File: omxzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMX/zplm.
 )
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 11.40997pt on input line 40.
+(Font)              scaled to size 11.40997pt on input line 41.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 8.33606pt on input line 40.
+(Font)              scaled to size 8.33606pt on input line 41.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 6.25204pt on input line 40.
+(Font)              scaled to size 6.25204pt on input line 41.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 11.40997pt on input line 40.
+(Font)              scaled to size 11.40997pt on input line 41.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 8.33606pt on input line 40.
+(Font)              scaled to size 8.33606pt on input line 41.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 6.25204pt on input line 40.
-LaTeX Font Info:    Try loading font information for OT1+zplm on input line 40.
+(Font)              scaled to size 6.25204pt on input line 41.
+LaTeX Font Info:    Try loading font information for OT1+zplm on input line 41.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1zplm.fd
 File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
 )
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 5.21004pt on input line 40.
+(Font)              scaled to size 5.21004pt on input line 41.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 5.21004pt on input line 40.
+(Font)              scaled to size 5.21004pt on input line 41.
 
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <4> not available
-(Font)              size <5> substituted on input line 40.
+(Font)              size <5> substituted on input line 41.
 
 
 Overfull \hbox (225.09032pt too wide) has occurred while \output is active
@@ -942,15 +954,15 @@ Overfull \hbox (225.09032pt too wide) has occurred while \output is active
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 42.
+(hyperref)                removing `math shift' on input line 43.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\partial' on input line 42.
+(hyperref)                removing `\partial' on input line 43.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 42.
+(hyperref)                removing `math shift' on input line 43.
 
 
 Overfull \hbox (225.09032pt too wide) has occurred while \output is active
@@ -1012,7 +1024,7 @@ Overfull \hbox (225.09032pt too wide) has occurred while \output is active
 File: figs/exp_by_type.png Graphic file (type png)
 
 <use figs/exp_by_type.png>
-Package pdftex.def Info: figs/exp_by_type.png used on input line 259.
+Package pdftex.def Info: figs/exp_by_type.png used on input line 260.
 (pdftex.def)             Requested size: 248.30804pt x 143.55684pt.
 
 Overfull \hbox (225.09032pt too wide) has occurred while \output is active
@@ -1026,7 +1038,7 @@ Overfull \hbox (225.09032pt too wide) has occurred while \output is active
 File: figs/exports_by_type.png Graphic file (type png)
 
 <use figs/exports_by_type.png>
-Package pdftex.def Info: figs/exports_by_type.png used on input line 286.
+Package pdftex.def Info: figs/exports_by_type.png used on input line 287.
 (pdftex.def)             Requested size: 244.93004pt x 150.68898pt.
 
 Overfull \hbox (225.09032pt too wide) has occurred while \output is active
@@ -1040,7 +1052,7 @@ Overfull \hbox (225.09032pt too wide) has occurred while \output is active
 File: figs/exp_by_coh.png Graphic file (type png)
 
 <use figs/exp_by_coh.png>
-Package pdftex.def Info: figs/exp_by_coh.png used on input line 313.
+Package pdftex.def Info: figs/exp_by_coh.png used on input line 314.
 (pdftex.def)             Requested size: 242.30676pt x 169.93182pt.
 
 Overfull \hbox (225.09032pt too wide) has occurred while \output is active
@@ -1053,10 +1065,10 @@ Overfull \hbox (225.09032pt too wide) has occurred while \output is active
 <figs/coh_shr.png, id=361, 864.22874pt x 551.05875pt>
 File: figs/coh_shr.png Graphic file (type png)
  <use figs/coh_shr.png>
-Package pdftex.def Info: figs/coh_shr.png used on input line 343.
+Package pdftex.def Info: figs/coh_shr.png used on input line 344.
 (pdftex.def)             Requested size: 258.12334pt x 161.12306pt.
 
-Overfull \vbox (5.58167pt too high) detected at line 343
+Overfull \vbox (5.58167pt too high) detected at line 344
  []
 
 
@@ -1070,10 +1082,10 @@ Overfull \hbox (225.09032pt too wide) has occurred while \output is active
 File: figs/sep_haz.png Graphic file (type png)
 
 <use figs/sep_haz.png>
-Package pdftex.def Info: figs/sep_haz.png used on input line 379.
+Package pdftex.def Info: figs/sep_haz.png used on input line 380.
 (pdftex.def)             Requested size: 237.93347pt x 153.62347pt.
 
-Overfull \vbox (7.09734pt too high) detected at line 379
+Overfull \vbox (7.09734pt too high) detected at line 380
  []
 
 
@@ -1088,10 +1100,10 @@ Overfull \hbox (225.09032pt too wide) has occurred while \output is active
 File: figs/match_dyn.png Graphic file (type png)
 
 <use figs/match_dyn.png>
-Package pdftex.def Info: figs/match_dyn.png used on input line 406.
+Package pdftex.def Info: figs/match_dyn.png used on input line 407.
 (pdftex.def)             Requested size: 330.94133pt x 180.226pt.
 
-Overfull \vbox (19.0846pt too high) detected at line 406
+Overfull \vbox (19.0846pt too high) detected at line 407
  []
 
 
@@ -1103,13 +1115,13 @@ Overfull \hbox (225.09032pt too wide) has occurred while \output is active
 
  <./figs/match_dyn.png>]
 
-LaTeX Font Warning: Command \tiny invalid in math mode on input line 426.
+LaTeX Font Warning: Command \tiny invalid in math mode on input line 427.
 
 
-LaTeX Font Warning: Command \tiny invalid in math mode on input line 426.
+LaTeX Font Warning: Command \tiny invalid in math mode on input line 427.
 
 
-LaTeX Font Warning: Command \tiny invalid in math mode on input line 426.
+LaTeX Font Warning: Command \tiny invalid in math mode on input line 427.
 
 
 Overfull \hbox (225.09032pt too wide) has occurred while \output is active
@@ -1122,7 +1134,7 @@ Overfull \hbox (225.09032pt too wide) has occurred while \output is active
 File: figs/fat_tail.png Graphic file (type png)
 
 <use figs/fat_tail.png>
-Package pdftex.def Info: figs/fat_tail.png used on input line 451.
+Package pdftex.def Info: figs/fat_tail.png used on input line 452.
 (pdftex.def)             Requested size: 251.62213pt x 185.68582pt.
 
 Overfull \hbox (225.09032pt too wide) has occurred while \output is active
@@ -1132,7 +1144,7 @@ Overfull \hbox (225.09032pt too wide) has occurred while \output is active
 [17
 
  <./figs/fat_tail.png>]
-Overfull \hbox (8.6841pt too wide) in paragraph at lines 498--498
+Overfull \hbox (8.6841pt too wide) in paragraph at lines 499--499
 [][] 
  []
 
@@ -1166,13 +1178,13 @@ Overfull \hbox (225.09032pt too wide) has occurred while \output is active
 
 ]
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 10.42007pt on input line 621.
+(Font)              scaled to size 10.42007pt on input line 622.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 7.91925pt on input line 621.
+(Font)              scaled to size 7.91925pt on input line 622.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 10.42007pt on input line 621.
+(Font)              scaled to size 10.42007pt on input line 622.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 7.91925pt on input line 621.
+(Font)              scaled to size 7.91925pt on input line 622.
 
 Overfull \hbox (225.09032pt too wide) has occurred while \output is active
  [][]  \OT1/cmss/m/n/6 ([])  
@@ -1245,25 +1257,25 @@ Overfull \hbox (225.09032pt too wide) has occurred while \output is active
 
 ]
 
-LaTeX Font Warning: Command \small invalid in math mode on input line 974.
+LaTeX Font Warning: Command \small invalid in math mode on input line 975.
 
 
-LaTeX Font Warning: Command \small invalid in math mode on input line 974.
+LaTeX Font Warning: Command \small invalid in math mode on input line 975.
 
 
-LaTeX Font Warning: Command \small invalid in math mode on input line 974.
+LaTeX Font Warning: Command \small invalid in math mode on input line 975.
 
 
-LaTeX Font Warning: Command \small invalid in math mode on input line 974.
+LaTeX Font Warning: Command \small invalid in math mode on input line 975.
 
 
-LaTeX Font Warning: Command \small invalid in math mode on input line 974.
+LaTeX Font Warning: Command \small invalid in math mode on input line 975.
 
 
-LaTeX Font Warning: Command \small invalid in math mode on input line 974.
+LaTeX Font Warning: Command \small invalid in math mode on input line 975.
 
 
-LaTeX Font Warning: Command \small invalid in math mode on input line 974.
+LaTeX Font Warning: Command \small invalid in math mode on input line 975.
 
 
 Overfull \hbox (225.09032pt too wide) has occurred while \output is active
@@ -1281,19 +1293,19 @@ Overfull \hbox (225.09032pt too wide) has occurred while \output is active
 
 ]
 
-LaTeX Font Warning: Command \small invalid in math mode on input line 1062.
+LaTeX Font Warning: Command \small invalid in math mode on input line 1063.
 
 
-LaTeX Font Warning: Command \small invalid in math mode on input line 1062.
+LaTeX Font Warning: Command \small invalid in math mode on input line 1063.
 
 
-LaTeX Font Warning: Command \small invalid in math mode on input line 1062.
+LaTeX Font Warning: Command \small invalid in math mode on input line 1063.
 
 
-LaTeX Font Warning: Command \small invalid in math mode on input line 1062.
+LaTeX Font Warning: Command \small invalid in math mode on input line 1063.
 
 
-LaTeX Font Warning: Command \small invalid in math mode on input line 1062.
+LaTeX Font Warning: Command \small invalid in math mode on input line 1063.
 
 
 Overfull \hbox (225.09032pt too wide) has occurred while \output is active
@@ -1304,13 +1316,13 @@ Overfull \hbox (225.09032pt too wide) has occurred while \output is active
 
 ]
 
-LaTeX Font Warning: Command \small invalid in math mode on input line 1110.
+LaTeX Font Warning: Command \small invalid in math mode on input line 1111.
 
 
-LaTeX Font Warning: Command \small invalid in math mode on input line 1110.
+LaTeX Font Warning: Command \small invalid in math mode on input line 1111.
 
 
-LaTeX Font Warning: Command \small invalid in math mode on input line 1110.
+LaTeX Font Warning: Command \small invalid in math mode on input line 1111.
 
 
 Overfull \hbox (225.09032pt too wide) has occurred while \output is active
@@ -1320,7 +1332,7 @@ Overfull \hbox (225.09032pt too wide) has occurred while \output is active
 [35
 
 ]
-Overfull \hbox (6.81749pt too wide) in paragraph at lines 1139--1139
+Overfull \hbox (6.81749pt too wide) in paragraph at lines 1140--1140
  [] 
  []
 
@@ -1332,7 +1344,7 @@ Overfull \hbox (225.09032pt too wide) has occurred while \output is active
 [36
 
 ]
-Overfull \hbox (12.26578pt too wide) in paragraph at lines 1164--1164
+Overfull \hbox (12.26578pt too wide) in paragraph at lines 1165--1165
  [] 
  []
 
@@ -1344,7 +1356,7 @@ Overfull \hbox (225.09032pt too wide) has occurred while \output is active
 [37
 
 ]
-Overfull \hbox (2.97131pt too wide) in paragraph at lines 1193--1193
+Overfull \hbox (2.97131pt too wide) in paragraph at lines 1194--1194
  [] 
  []
 
@@ -1373,7 +1385,7 @@ Overfull \hbox (225.09032pt too wide) has occurred while \output is active
 File: figs/product_appeal_dist.png Graphic file (type png)
 
 <use figs/product_appeal_dist.png>
-Package pdftex.def Info: figs/product_appeal_dist.png used on input line 1273.
+Package pdftex.def Info: figs/product_appeal_dist.png used on input line 1274.
 (pdftex.def)             Requested size: 337.86487pt x 139.72307pt.
 
 Overfull \hbox (225.09032pt too wide) has occurred while \output is active
@@ -1384,13 +1396,13 @@ Overfull \hbox (225.09032pt too wide) has occurred while \output is active
 
  <./figs/product_appeal_dist.png>]
 
-LaTeX Font Warning: Command \small invalid in math mode on input line 1311.
+LaTeX Font Warning: Command \small invalid in math mode on input line 1312.
 
 
-LaTeX Font Warning: Command \small invalid in math mode on input line 1311.
+LaTeX Font Warning: Command \small invalid in math mode on input line 1312.
 
 
-LaTeX Font Warning: Command \small invalid in math mode on input line 1311.
+LaTeX Font Warning: Command \small invalid in math mode on input line 1312.
 
 
 Overfull \hbox (225.09032pt too wide) has occurred while \output is active
@@ -1403,7 +1415,7 @@ Overfull \hbox (225.09032pt too wide) has occurred while \output is active
 File: figs/restricted.png Graphic file (type png)
 
 <use figs/restricted.png>
-Package pdftex.def Info: figs/restricted.png used on input line 1339.
+Package pdftex.def Info: figs/restricted.png used on input line 1340.
 (pdftex.def)             Requested size: 331.72374pt x 175.61844pt.
 
 Overfull \hbox (225.09032pt too wide) has occurred while \output is active
@@ -1430,7 +1442,7 @@ Overfull \hbox (225.09032pt too wide) has occurred while \output is active
 File: figs/baseline_policy.png Graphic file (type png)
 
 <use figs/baseline_policy.png>
-Package pdftex.def Info: figs/baseline_policy.png used on input line 1442.
+Package pdftex.def Info: figs/baseline_policy.png used on input line 1443.
 (pdftex.def)             Requested size: 251.77626pt x 195.70105pt.
 
 Overfull \hbox (225.09032pt too wide) has occurred while \output is active
@@ -1444,7 +1456,7 @@ Overfull \hbox (225.09032pt too wide) has occurred while \output is active
 File: figs/baseline_policy_2d.png Graphic file (type png)
 
 <use figs/baseline_policy_2d.png>
-Package pdftex.def Info: figs/baseline_policy_2d.png used on input line 1464.
+Package pdftex.def Info: figs/baseline_policy_2d.png used on input line 1465.
 (pdftex.def)             Requested size: 242.00877pt x 191.27406pt.
 
 Overfull \hbox (225.09032pt too wide) has occurred while \output is active
@@ -1459,7 +1471,7 @@ File: figs/baseline_policy_no_suc.png Graphic file (type png)
 
 <use figs/baseline_policy_no_suc.png>
 Package pdftex.def Info: figs/baseline_policy_no_suc.png used on input line 148
-6.
+7.
 (pdftex.def)             Requested size: 245.94388pt x 194.71729pt.
 
 Overfull \hbox (225.09032pt too wide) has occurred while \output is active
@@ -1474,7 +1486,7 @@ File: figs/baseline_policy_no_suc_2d.png Graphic file (type png)
 
 <use figs/baseline_policy_no_suc_2d.png>
 Package pdftex.def Info: figs/baseline_policy_no_suc_2d.png used on input line 
-1508.
+1509.
 (pdftex.def)             Requested size: 242.00877pt x 191.27406pt.
 
 Overfull \hbox (225.09032pt too wide) has occurred while \output is active
@@ -1484,28 +1496,21 @@ Overfull \hbox (225.09032pt too wide) has occurred while \output is active
 [49
 
  <./figs/baseline_policy_no_suc_2d.png>]
-<figs/increase_in_foreign_market_size.png, id=1365, 942.52126pt x 714.67pt>
-File: figs/increase_in_foreign_market_size.png Graphic file (type png)
-
-<use figs/increase_in_foreign_market_size.png>
-Package pdftex.def Info: figs/increase_in_foreign_market_size.png used on input
- line 1525.
-(pdftex.def)             Requested size: 282.75856pt x 214.40265pt.
-
 Overfull \hbox (225.09032pt too wide) has occurred while \output is active
  [][]  \OT1/cmss/m/n/6 ([])  
  []
 
 [50
 
- <./figs/increase_in_foreign_market_size.png>]
-<figs/reduction_in_search_costs.png, id=1392, 935.495pt x 708.6475pt>
-File: figs/reduction_in_search_costs.png Graphic file (type png)
-
-<use figs/reduction_in_search_costs.png>
-Package pdftex.def Info: figs/reduction_in_search_costs.png used on input line 
-1544.
-(pdftex.def)             Requested size: 280.65067pt x 212.59589pt.
+]
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 9.37807pt on input line 1557.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 7.29405pt on input line 1557.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 9.37807pt on input line 1557.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 7.29405pt on input line 1557.
 
 Overfull \hbox (225.09032pt too wide) has occurred while \output is active
  [][]  \OT1/cmss/m/n/6 ([])  
@@ -1513,43 +1518,59 @@ Overfull \hbox (225.09032pt too wide) has occurred while \output is active
 
 [51
 
- <./figs/reduction_in_search_costs.png>]
-<figs/reduction_in_fixed_costs.png, id=1419, 936.49875pt x 707.64375pt>
-File: figs/reduction_in_fixed_costs.png Graphic file (type png)
-
-<use figs/reduction_in_fixed_costs.png>
-Package pdftex.def Info: figs/reduction_in_fixed_costs.png used on input line 1
-564.
-(pdftex.def)             Requested size: 280.95178pt x 212.29475pt.
-
+]
 Overfull \hbox (225.09032pt too wide) has occurred while \output is active
  [][]  \OT1/cmss/m/n/6 ([])  
  []
 
 [52
 
- <./figs/reduction_in_fixed_costs.png>]
+]
+<figs/increase_in_foreign_market_size.png, id=1444, 942.52126pt x 714.67pt>
+File: figs/increase_in_foreign_market_size.png Graphic file (type png)
+
+<use figs/increase_in_foreign_market_size.png>
+Package pdftex.def Info: figs/increase_in_foreign_market_size.png used on input
+ line 1613.
+(pdftex.def)             Requested size: 282.75856pt x 214.40265pt.
+
 Overfull \hbox (225.09032pt too wide) has occurred while \output is active
  [][]  \OT1/cmss/m/n/6 ([])  
  []
 
 [53
 
-]
+ <./figs/increase_in_foreign_market_size.png>]
+<figs/reduction_in_search_costs.png, id=1471, 935.495pt x 708.6475pt>
+File: figs/reduction_in_search_costs.png Graphic file (type png)
+
+<use figs/reduction_in_search_costs.png>
+Package pdftex.def Info: figs/reduction_in_search_costs.png used on input line 
+1632.
+(pdftex.def)             Requested size: 280.65067pt x 212.59589pt.
+
 Overfull \hbox (225.09032pt too wide) has occurred while \output is active
  [][]  \OT1/cmss/m/n/6 ([])  
  []
 
 [54
 
-]
+ <./figs/reduction_in_search_costs.png>]
+<figs/reduction_in_fixed_costs.png, id=1498, 936.49875pt x 707.64375pt>
+File: figs/reduction_in_fixed_costs.png Graphic file (type png)
+
+<use figs/reduction_in_fixed_costs.png>
+Package pdftex.def Info: figs/reduction_in_fixed_costs.png used on input line 1
+652.
+(pdftex.def)             Requested size: 280.95178pt x 212.29475pt.
+
 Overfull \hbox (225.09032pt too wide) has occurred while \output is active
  [][]  \OT1/cmss/m/n/6 ([])  
  []
 
 [55
 
-]
+ <./figs/reduction_in_fixed_costs.png>]
 Overfull \hbox (225.09032pt too wide) has occurred while \output is active
  [][]  \OT1/cmss/m/n/6 ([])  
  []
@@ -1557,11 +1578,6 @@ Overfull \hbox (225.09032pt too wide) has occurred while \output is active
 [56
 
 ]
-Overfull \hbox (1.19943pt too wide) in alignment at lines 1733--1733
- [][][] []
- []
-
-
 Overfull \hbox (225.09032pt too wide) has occurred while \output is active
  [][]  \OT1/cmss/m/n/6 ([])  
  []
@@ -1583,7 +1599,7 @@ Overfull \hbox (225.09032pt too wide) has occurred while \output is active
 [59
 
 ]
-Overfull \hbox (16.12032pt too wide) in alignment at lines 1839--1839
+Overfull \hbox (1.19943pt too wide) in alignment at lines 1821--1821
  [][][] []
  []
 
@@ -1595,11 +1611,6 @@ Overfull \hbox (225.09032pt too wide) has occurred while \output is active
 [60
 
 ]
-Overfull \hbox (26.17302pt too wide) in alignment at lines 1874--1874
- [][][] []
- []
-
-
 Overfull \hbox (225.09032pt too wide) has occurred while \output is active
  [][]  \OT1/cmss/m/n/6 ([])  
  []
@@ -1614,6 +1625,37 @@ Overfull \hbox (225.09032pt too wide) has occurred while \output is active
 [62
 
 ]
+Overfull \hbox (16.12032pt too wide) in alignment at lines 1927--1927
+ [][][] []
+ []
+
+
+Overfull \hbox (225.09032pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[63
+
+]
+Overfull \hbox (26.17302pt too wide) in alignment at lines 1962--1962
+ [][][] []
+ []
+
+
+Overfull \hbox (225.09032pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[64
+
+]
+Overfull \hbox (225.09032pt too wide) has occurred while \output is active
+ [][]  \OT1/cmss/m/n/6 ([])  
+ []
+
+[65
+
+]
 \tf@nav=\write6
 \openout6 = `exeter.nav'.
 
@@ -1623,11 +1665,11 @@ Overfull \hbox (225.09032pt too wide) has occurred while \output is active
 \tf@snm=\write8
 \openout8 = `exeter.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1907.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1907.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1995.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1995.
  (./exeter.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1907.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1907.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1995.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1995.
 
 Package rerunfilecheck Info: File `exeter.out' has not changed.
 (rerunfilecheck)             Checksum: 8E47AD6508BFFB56F7216895B6AEE6D5;145.
@@ -1636,14 +1678,14 @@ Package rerunfilecheck Info: File `exeter.out' has not changed.
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.0pt have occurred.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1907.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1995.
  ) 
 Here is how much of TeX's memory you used:
- 16566 strings out of 493304
- 304464 string characters out of 6139871
- 384991 words of memory out of 5000000
- 19448 multiletter control sequences out of 15000+600000
- 34331 words of font info for 106 fonts, out of 8000000 for 9000
+ 16704 strings out of 493304
+ 306230 string characters out of 6139871
+ 390921 words of memory out of 5000000
+ 19572 multiletter control sequences out of 15000+600000
+ 39669 words of font info for 123 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  49i,18n,57p,415b,646s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
@@ -1660,10 +1702,10 @@ mssbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi
 /share/texlive/texmf-dist/fonts/type1/public/mathpazo/fplmr.pfb></usr/share/tex
 live/texmf-dist/fonts/type1/public/mathpazo/fplmri.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/urw/palatino/uplr8a.pfb>
-Output written on exeter.pdf (62 pages, 2551025 bytes).
+Output written on exeter.pdf (65 pages, 2558842 bytes).
 PDF statistics:
- 1787 PDF objects out of 2073 (max. 8388607)
- 1663 compressed objects within 17 object streams
- 131 named destinations out of 1000 (max. 500000)
+ 1867 PDF objects out of 2073 (max. 8388607)
+ 1739 compressed objects within 18 object streams
+ 137 named destinations out of 1000 (max. 500000)
  173 words of extra memory for PDF output out of 10000 (max. 10000000)
 
